@@ -1,7 +1,8 @@
 'use strict';
 
 const elements = Object.fromEntries(
-  ['map', 'map-error', 'overview', 'query', 'classroom', 'count', 'places', 'theme']
+  ['map', 'map-error', 'query', 'count', 'places', 'theme', 'place-dialog', 'place-details',
+    'period', 'period-dates', 'occupancy-legend', 'layout', 'sidebar', 'sidebar-toggle']
     .map(id => [id, document.getElementById(id)])
 );
 const regionalCenter = [49.41, 6.14];
@@ -11,43 +12,57 @@ const precisionLabels = {
   commune: 'Repère au centre de la commune',
   absente: 'Localisation à vérifier'
 };
+const periods = {
+  '2TNE-1': { label: '2TNE · PFMP 1', dates: 'Du 7 au 19 décembre 2026', hasRegister: false },
+  '2TNE-2': { label: '2TNE · PFMP 2', dates: 'Du 8 mars au 3 avril 2027', hasRegister: false },
+  '1CIEL-1': { label: '1CIEL · PFMP 1', dates: 'Du 9 novembre au 5 décembre 2026', hasRegister: true },
+  '1CIEL-2': { label: '1CIEL · PFMP 2', dates: 'Du 24 mai au 19 juin 2027', hasRegister: false },
+  'TCIEL-1': { label: 'TCIEL · PFMP 1', dates: 'Du 21 septembre au 10 octobre 2026', hasRegister: true },
+  'TCIEL-2': { label: 'TCIEL · PFMP 2', dates: 'Du 18 janvier au 6 février 2027', hasRegister: false }
+};
+const occupancyLabels = {
+  occupied: 'Accueille à cette période',
+  available: 'N’accueille pas à cette période'
+};
+for (const [id, period] of Object.entries(periods)) {
+  elements.period.add(new Option(period.label, id));
+}
 const collator = new Intl.Collator('fr', { sensitivity: 'base' });
 const sorted = [...lieux].sort((first, second) => collator.compare(first.nom, second.nom));
+const regionalPlaces = sorted.filter(place => {
+  const [lat, lon] = place.coordonnees || [];
+  return lat >= 48.7 && lat <= 50.3 && lon >= 5.1 && lon <= 7.5;
+});
 const markers = new Map();
 const listButtons = new Map();
 let map;
 let layer;
 let basemap;
-let visible = [];
-const systemTheme = matchMedia('(prefers-color-scheme: dark)');
 const mapStyles = {
   light: 'https://tiles.openfreemap.org/styles/positron',
   dark: 'https://tiles.openfreemap.org/styles/fiord'
 };
 const themeKey = 'pfmp-map-theme';
 
-function applyTheme() {
-  const choice = elements.theme.value;
-  const theme = choice === 'system' ? (systemTheme.matches ? 'dark' : 'light') : choice;
-  const root = document.documentElement;
-  if (root.dataset.theme === theme) return;
-  root.dataset.theme = theme;
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  elements.theme.setAttribute('aria-checked', String(theme === 'dark'));
   basemap?.setStyle(mapStyles[theme]);
 }
 
+let initialTheme = 'light';
 try {
-  const savedTheme = localStorage.getItem(themeKey);
-  if (savedTheme === 'light' || savedTheme === 'dark') elements.theme.value = savedTheme;
+  if (localStorage.getItem(themeKey) === 'dark') initialTheme = 'dark';
 } catch {
   // Le navigateur peut désactiver le stockage pour les fichiers locaux.
 }
+applyTheme(initialTheme);
 elements.theme.disabled = false;
-applyTheme();
-systemTheme.addEventListener('change', applyTheme);
-elements.theme.addEventListener('change', () => {
-  applyTheme();
+elements.theme.addEventListener('click', () => {
+  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  applyTheme(theme);
   try {
-    localStorage.setItem(themeKey, elements.theme.value);
+    localStorage.setItem(themeKey, theme);
   } catch {
     // Le thème reste actif pour la page ouverte.
   }
@@ -64,20 +79,67 @@ function searchText(value) {
   return value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
 
-function group(place) {
-  if (place.a && place.b) return 'both';
-  return place.a ? 'a' : 'b';
+function cityKey(value) {
+  return searchText(value).replace(/\s+cedex(?:\s+\d+)?$/, '');
 }
 
-function popup(place) {
-  const content = node('div', '');
+function occupancy(place) {
+  const id = elements.period.value;
+  if (!id) return '';
+  if (place.accueils?.[id] > 0) return 'occupied';
+  if (!periods[id].hasRegister || place.accueil_a_verifier?.includes(id)) return '';
+  return 'available';
+}
+
+function addHistory(content, place) {
+  const years = Object.entries(place.historique || {}).sort(([a], [b]) => b.localeCompare(a));
+  content.append(node('h4', 'Historique des accueils'));
+  if (!years.length) {
+    content.append(node('p', 'Aucun effectif historique renseigné.', 'popup-note'));
+    return;
+  }
+  const history = node('ul', '', 'history');
+  for (const [year, count] of years) {
+    const item = node('li', '');
+    const label = `${count} stagiaire${count === 1 ? '' : 's'}`;
+    const button = node('button', year);
+    button.type = 'button';
+    button.setAttribute('aria-label', `${year}, ${label}`);
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+      button.setAttribute('aria-expanded', String(button.getAttribute('aria-expanded') === 'false'));
+    });
+    item.append(button, node('span', label, 'year-count'));
+    history.append(item);
+  }
+  content.append(history);
+}
+
+function placeDetails(place) {
+  const content = node('div', '', 'place-details');
   const address = [place.rue, [place.code_postal, place.commune].filter(Boolean).join(' ')].filter(Boolean).join(', ');
-  const classes = [['1CIELA', place.a], ['1CIELB', place.b]]
-    .filter(([, count]) => count)
-    .map(([name, count]) => `${name} · ${count}`).join(' / ');
-  content.append(node('strong', place.nom), node('p', address), node('p', classes));
+  content.append(node('h3', place.nom));
+  if (address) content.append(node('p', address));
   if (place.precision !== 'adresse') content.append(node('p', precisionLabels[place.precision], 'popup-note'));
-  if (place.commune === 'Drancy') content.append(node('p', 'Adresse du siège enregistrée. Lieu effectif de PFMP à confirmer.', 'popup-note'));
+  if (place.note) content.append(node('p', place.note, 'popup-note'));
+  const status = occupancy(place);
+  if (status) {
+    content.append(node('p', occupancyLabels[status], `occupancy ${status}`));
+  }
+  const contacts = node('dl', '', 'contacts');
+  contacts.append(
+    node('dt', 'Tuteur indiqué dans le suivi'),
+    node('dd', place.tuteur || 'À confirmer')
+  );
+  const phone = node('dd', 'À confirmer');
+  if (place.telephone) {
+    const link = node('a', place.telephone);
+    link.href = `tel:${place.telephone.replace(/[^+\d]/g, '')}`;
+    phone.replaceChildren(link);
+  }
+  contacts.append(node('dt', 'Téléphone de l’établissement'), phone);
+  content.append(contacts);
+  addHistory(content, place);
   return content;
 }
 
@@ -88,46 +150,88 @@ function zoomTo(places, maxZoom = 12) {
 
 function selectPlace(place) {
   const marker = markers.get(place);
-  if (!marker) return;
+  if (!marker) {
+    const dialog = elements['place-dialog'];
+    elements['place-details'].replaceChildren(placeDetails(place));
+    dialog.setAttribute('aria-label', place.nom);
+    dialog.showModal();
+    return;
+  }
   map.setView(marker.getLatLng(), Math.max(map.getZoom(), place.precision === 'commune' ? 13 : 15), { animate: false });
-  marker.openPopup();
+  if (layer.zoomToShowLayer) {
+    layer.zoomToShowLayer(marker, () => marker.openPopup());
+  } else {
+    marker.openPopup();
+  }
   if (matchMedia('(max-width: 680px)').matches) elements.map.scrollIntoView({ block: 'nearest' });
 }
 
-function render() {
-  const terms = searchText(elements.query.value).split(' ').filter(Boolean);
-  const classroom = elements.classroom.value;
-  visible = sorted.filter(place => {
+function placeIcon(place, status) {
+  const approximate = place.precision === 'adresse' ? '' : ' approx';
+  return L.divIcon({ className: `pin${approximate} ${status}`, iconSize: [16, 16] });
+}
+
+function render(focusSearch = false) {
+  const query = searchText(elements.query.value);
+  const terms = query.split(' ').filter(Boolean);
+  const city = cityKey(query);
+  const cityPlaces = city ? sorted.filter(place => cityKey(place.commune) === city) : [];
+  const visible = cityPlaces.length ? cityPlaces : sorted.filter(place => {
     const haystack = searchText(`${place.nom} ${place.commune} ${place.rue}`);
-    return (classroom === 'all' || place[classroom]) && terms.every(term => haystack.includes(term));
+    return terms.every(term => haystack.includes(term));
   });
   const label = visible.length === 1 ? 'établissement' : 'établissements';
   elements.count.textContent = `${visible.length} ${label} sur ${sorted.length}`;
   elements.places.replaceChildren();
   listButtons.clear();
   if (layer) layer.clearLayers();
-  elements.overview.disabled = !map || !visible.some(place => place.coordonnees);
   if (!visible.length) {
     elements.places.append(node('li', 'Aucun établissement pour cette recherche.', 'empty'));
     return;
   }
+  const displayedMarkers = [];
   for (const place of visible) {
     const li = node('li', '');
     const marker = markers.get(place);
-    const item = node(marker ? 'button' : 'div', '', 'place');
+    const item = node('button', '', 'place');
     const text = node('span', '');
-    const note = place.precision === 'adresse' ? '' : ` · ${precisionLabels[place.precision]}`;
-    text.append(node('span', place.nom, 'place-name'), node('span', `${place.commune}${note}`, 'place-meta'));
-    item.append(node('span', '', `dot ${group(place)}`), text);
+    const precision = place.precision === 'adresse' ? '' : precisionLabels[place.precision];
+    const status = occupancy(place);
+    text.append(node('span', place.nom, 'place-name'));
+    text.append(node('span', [place.commune, precision, occupancyLabels[status]].filter(Boolean).join(' · '), 'place-meta'));
+    const dot = node('span', '', `dot ${status || (place.coordonnees ? '' : 'unlocated')}`);
+    dot.setAttribute('aria-hidden', 'true');
+    item.append(dot, text);
+    item.type = 'button';
+    item.addEventListener('click', () => selectPlace(place));
     if (marker) {
-      item.type = 'button';
-      item.addEventListener('click', () => selectPlace(place));
       listButtons.set(place, item);
-      layer.addLayer(marker);
+      const icon = placeIcon(place, status);
+      if (marker.options.icon.options.className !== icon.options.className) marker.setIcon(icon);
+      displayedMarkers.push(marker);
     }
     li.append(item);
     elements.places.append(li);
   }
+  if (layer?.addLayers) {
+    layer.addLayers(displayedMarkers);
+  } else {
+    displayedMarkers.forEach(marker => layer.addLayer(marker));
+  }
+  if (map && focusSearch) {
+    if (cityPlaces.length) zoomTo(cityPlaces, 14);
+    else if (!query) zoomTo(regionalPlaces);
+  }
+}
+
+function updatePeriod() {
+  const period = periods[elements.period.value];
+  elements['period-dates'].hidden = !period;
+  elements['occupancy-legend'].hidden = !period?.hasRegister;
+  if (period) {
+    elements['period-dates'].textContent = period.dates;
+  }
+  render();
 }
 
 function showMapNotice(message) {
@@ -160,27 +264,49 @@ function addBasemap() {
 if (typeof L === 'undefined') {
   showMapNotice('Leaflet est indisponible. Vérifie la connexion Internet pour afficher la carte.');
 } else {
-  map = L.map('map', { zoomControl: false, minZoom: 2 }).setView(regionalCenter, 10);
+  map = L.map('map', { zoomControl: false, minZoom: 2, maxZoom: 19 }).setView(regionalCenter, 10);
   L.control.zoom({ zoomInTitle: 'Zoom avant', zoomOutTitle: 'Zoom arrière' }).addTo(map);
   addBasemap();
-  layer = L.layerGroup().addTo(map);
+  layer = (L.markerClusterGroup ? L.markerClusterGroup({
+    maxClusterRadius: 38,
+    showCoverageOnHover: false,
+    animate: !matchMedia('(prefers-reduced-motion: reduce)').matches,
+    iconCreateFunction(cluster) {
+      const count = cluster.getChildCount();
+      return L.divIcon({
+        className: 'cluster-pin',
+        html: `${count}<span class="visually-hidden"> lieux</span>`,
+        iconSize: [36, 36]
+      });
+    }
+  }) : L.layerGroup()).addTo(map);
   for (const place of sorted) {
     if (!place.coordonnees) continue;
-    const approximate = place.precision !== 'adresse' ? ' approx' : '';
     const marker = L.marker(place.coordonnees, {
       title: place.nom,
       alt: place.nom,
-      icon: L.divIcon({ className: `pin ${group(place)}${approximate}`, iconSize: [16, 16] })
+      icon: placeIcon(place, '')
     });
-    marker.bindPopup(() => popup(place));
+    marker.bindPopup(() => placeDetails(place));
     marker.on('popupopen', () => listButtons.get(place)?.setAttribute('aria-current', 'true'));
     marker.on('popupclose', () => listButtons.get(place)?.removeAttribute('aria-current'));
     markers.set(place, marker);
   }
 }
 
-elements.query.addEventListener('input', render);
-elements.classroom.addEventListener('change', render);
-elements.overview.addEventListener('click', () => zoomTo(visible));
-render();
-if (map) zoomTo(visible.filter(place => place.commune !== 'Drancy'));
+const sidebarToggle = elements['sidebar-toggle'];
+sidebarToggle.hidden = false;
+sidebarToggle.addEventListener('click', () => {
+  const collapsed = elements.layout.classList.toggle('sidebar-hidden');
+  elements.sidebar.hidden = collapsed;
+  const label = collapsed ? 'Afficher le panneau de recherche' : 'Masquer le panneau de recherche';
+  sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
+  sidebarToggle.setAttribute('aria-label', label);
+  sidebarToggle.title = label;
+  map?.invalidateSize({ animate: false });
+});
+
+elements.query.addEventListener('input', () => render(true));
+elements.period.addEventListener('change', updatePeriod);
+updatePeriod();
+if (map) zoomTo(regionalPlaces);

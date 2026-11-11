@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carte des PFMP · 1CIEL</title>
+  <title>Carte des PFMP · Bac pro CIEL</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script defer src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script defer src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
   <script defer src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/leaflet-maplibre-gl.js"></script>
   <script defer src="lieux.js"></script>
@@ -26,37 +28,55 @@
       <h1>Carte des PFMP</h1>
     </div>
     <div class="header-actions">
-      <select id="theme" aria-label="Thème" disabled>
-        <option value="system">Thème système</option>
-        <option value="light">Mode clair</option>
-        <option value="dark">Mode sombre</option>
-      </select>
-      <button type="button" id="overview" disabled>Voir tous les points</button>
+      <button type="button" id="theme" role="switch" aria-label="Mode sombre" aria-checked="false" disabled>
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+             stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"></path>
+        </svg>
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+             stroke-width="1.7" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20.8 14.6A9 9 0 0 1 9.4 3.2 9 9 0 1 0 20.8 14.6Z"></path>
+        </svg>
+      </button>
     </div>
   </header>
-  <main>
+  <main id="layout">
     <section class="map-panel" aria-label="Carte des établissements">
       <div id="map" aria-label="Carte interactive des lieux de PFMP"></div>
       <p class="map-error" id="map-error" role="status" hidden></p>
+      <button type="button" id="sidebar-toggle" aria-controls="sidebar" aria-expanded="true"
+              aria-label="Masquer le panneau de recherche" title="Masquer le panneau de recherche" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+          <path d="M9 5v14"></path>
+        </svg>
+      </button>
     </section>
-    <aside aria-labelledby="list-title">
+    <aside id="sidebar" aria-labelledby="list-title">
       <div class="controls">
         <h2 id="list-title">Établissements</h2>
         <label for="query">Rechercher</label>
         <input id="query" type="search" placeholder="Nom ou commune" autocomplete="off">
-        <label for="classroom">Classe</label>
-        <select id="classroom">
-          <option value="all">Toutes les classes</option>
-          <option value="a">1CIELA</option>
-          <option value="b">1CIELB</option>
+        <label for="period">Période de PFMP</label>
+        <select id="period">
+          <option value="">Choisir une période</option>
         </select>
-        <p class="legend"><span><i class="dot a"></i>1CIELA</span><span><i class="dot b"></i>1CIELB</span><span><i class="dot both"></i>Les deux</span></p>
+        <p id="period-dates" class="place-meta" aria-live="polite" hidden></p>
+        <ul id="occupancy-legend" hidden>
+          <li><i class="dot occupied" aria-hidden="true"></i>Accueille à cette période</li>
+          <li><i class="dot available" aria-hidden="true"></i>N’accueille pas à cette période</li>
+        </ul>
         <p id="count" role="status"></p>
       </div>
       <ul id="places"></ul>
       <noscript><p>Active JavaScript pour afficher la carte et la liste.</p></noscript>
-      <footer class="signature">David Chessa</footer>
     </aside>
   </main>
+  <footer class="signature">Outil conçu par David Chessa</footer>
+  <dialog id="place-dialog">
+    <div id="place-details"></div>
+    <form method="dialog"><button type="submit">Fermer</button></form>
+  </dialog>
 </body>
 </html>
