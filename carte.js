@@ -20,10 +20,6 @@ const periods = {
   'TCIEL-1': { label: 'TCIEL · PFMP 1', dates: 'Du 21 septembre au 10 octobre 2026', hasRegister: true },
   'TCIEL-2': { label: 'TCIEL · PFMP 2', dates: 'Du 18 janvier au 6 février 2027', hasRegister: false }
 };
-const occupancyLabels = {
-  occupied: 'Accueille à cette période',
-  available: 'N’accueille pas à cette période'
-};
 for (const [id, period] of Object.entries(periods)) {
   elements.period.add(new Option(period.label, id));
 }
@@ -91,6 +87,15 @@ function occupancy(place) {
   return 'available';
 }
 
+function occupancyLabel(place, status) {
+  if (status === 'available') return 'N’accueille encore personne à cette période';
+  if (status === 'occupied') {
+    const count = place.accueils[elements.period.value];
+    return `Accueille ${count} élève${count === 1 ? '' : 's'} à cette période`;
+  }
+  return '';
+}
+
 function addHistory(content, place) {
   const years = Object.entries(place.historique || {}).sort(([a], [b]) => b.localeCompare(a));
   content.append(node('h4', 'Historique des accueils'));
@@ -124,7 +129,7 @@ function placeDetails(place) {
   if (place.note) content.append(node('p', place.note, 'popup-note'));
   const status = occupancy(place);
   if (status) {
-    content.append(node('p', occupancyLabels[status], `occupancy ${status}`));
+    content.append(node('p', occupancyLabel(place, status), `occupancy ${status}`));
   }
   const contacts = node('dl', '', 'contacts');
   contacts.append(
@@ -198,7 +203,7 @@ function render(focusSearch = false) {
     const precision = place.precision === 'adresse' ? '' : precisionLabels[place.precision];
     const status = occupancy(place);
     text.append(node('span', place.nom, 'place-name'));
-    text.append(node('span', [place.commune, precision, occupancyLabels[status]].filter(Boolean).join(' · '), 'place-meta'));
+    text.append(node('span', [place.commune, precision, occupancyLabel(place, status)].filter(Boolean).join(' · '), 'place-meta'));
     const dot = node('span', '', `dot ${status || (place.coordonnees ? '' : 'unlocated')}`);
     dot.setAttribute('aria-hidden', 'true');
     item.append(dot, text);
