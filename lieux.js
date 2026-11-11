@@ -371,36 +371,6 @@ const lieux = [
     "adresse_geocodee": "30 Rue de Luxembourg 57100 Thionville"
   },
   {
-    "nom": "PHONETECH NEW",
-    "rue": "35 avenue des nations",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 19",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1,
-      "2020-2021": 6,
-      "2021-2022": 4,
-      "2022-2023": 3,
-      "2023-2024": 3,
-      "2024-2025": 2,
-      "2025-2026": 5
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.357582,
-      6.187976
-    ],
-    "adresse_geocodee": "35 Avenue des Nations 57970 Yutz"
-  },
-  {
     "nom": "THYSSENKRUPP PRESTA FRANCE",
     "rue": "8 rue Lavoisier",
     "code_postal": "57190",
@@ -919,35 +889,6 @@ const lieux = [
     "adresse_geocodee": "447 Rue du Prayon 57685 Augny"
   },
   {
-    "nom": "SOURIS.COM",
-    "rue": "6 rue de Verdun",
-    "code_postal": "54490",
-    "commune": "PIENNES",
-    "pays": "FR",
-    "source": "CIEL, ligne 39",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 4,
-      "2018-2019": 3,
-      "2020-2021": 2,
-      "2023-2024": 2,
-      "2024-2025": 2,
-      "2025-2026": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.311418,
-      5.779897
-    ],
-    "adresse_geocodee": "6 Rue de Verdun 54490 Piennes"
-  },
-  {
     "nom": "INTER ACTIF - CENTRE COMMERCIAL GERIC",
     "rue": "33 rue du maillet",
     "code_postal": "57100",
@@ -1328,32 +1269,6 @@ const lieux = [
       6.165827
     ],
     "adresse_geocodee": "14, Rue Léon Thyes 2636 Luxembourg"
-  },
-  {
-    "nom": "ID PHONE",
-    "rue": "",
-    "code_postal": "",
-    "commune": "Maizières-lès-Metz",
-    "pays": "FR",
-    "source": "Détail accueils, ligne 1567 et Corrections, ligne 438",
-    "coordonnees_site": "",
-    "note": "Le site historique de Grand’Rue reste à confirmer.",
-    "tuteur": "Mohamed Zidi",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1,
-      "2020-2021": 1,
-      "2023-2024": 1,
-      "2025-2026": 2
-    },
-    "accueils": {
-      "1CIEL-1": 1
-    },
-    "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
   },
   {
     "nom": "SSP LUXEMBOURG SA - AEROPORT DE LUXE.",
@@ -1757,31 +1672,6 @@ const lieux = [
     "adresse_geocodee": "1 Rue de Briey 57255 Sainte-Marie-aux-Chênes"
   },
   {
-    "nom": "OUDER TECHNOLOGIE REPAIR",
-    "rue": "20 place Notre Dame",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 71",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2024-2025": 4,
-      "2025-2026": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.357026,
-      6.159901
-    ],
-    "adresse_geocodee": "20 Place Notre Dame 57100 Thionville"
-  },
-  {
     "nom": "ARCUS ASBL",
     "rue": "52B, avenue Gaston DIEDRICH",
     "code_postal": "L-1420",
@@ -1805,37 +1695,6 @@ const lieux = [
       6.113108
     ],
     "adresse_geocodee": "52B, Avenue Gaston Diderich 1420 Luxembourg"
-  },
-  {
-    "nom": "COMMUNAUTE D'AGGLOMERATION DU VAL D.",
-    "rue": "10 rue Wendel",
-    "code_postal": "57705",
-    "commune": "HAYANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 73",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1,
-      "2016-2017": 2,
-      "2017-2018": 2,
-      "2020-2021": 4,
-      "2021-2022": 2,
-      "2023-2024": 6,
-      "2024-2025": 2,
-      "2025-2026": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.333471,
-      6.068399
-    ],
-    "adresse_geocodee": "Hayange"
   },
   {
     "nom": "ZF-LEMFORDER METAL FRANCE",
@@ -1894,32 +1753,6 @@ const lieux = [
       5.989243
     ],
     "adresse_geocodee": "CAPELLEN"
-  },
-  {
-    "nom": "CARREFOUR MARKET",
-    "rue": "Cour des Capucins",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 76",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1,
-      "2024-2025": 2,
-      "2025-2026": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.357026,
-      6.164248
-    ],
-    "adresse_geocodee": "Cour des Capucins 57100 Thionville"
   },
   {
     "nom": "MY PHONE ASSISTANCE - KING GSM",
@@ -2484,32 +2317,6 @@ const lieux = [
     "adresse_geocodee": "4, Rue du Fort Wallis 2714 Luxembourg"
   },
   {
-    "nom": "AXESS MOBILE",
-    "rue": "42 rue Victor HUGO",
-    "code_postal": "54700",
-    "commune": "Pont-à-Mousson",
-    "pays": "FR",
-    "source": "CIEL, ligne 99",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2025-2026": 1
-    },
-    "accueils": {
-      "TCIEL-1": 1
-    },
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      48.901789,
-      6.051654
-    ],
-    "adresse_geocodee": "42 Rue Victor Hugo 54700 Pont-à-Mousson"
-  },
-  {
     "nom": "CENTRE D'ANIMATION SOCIALE CULTURELLE",
     "rue": "7 bis place de la Fontaine",
     "code_postal": "57700",
@@ -3063,30 +2870,6 @@ const lieux = [
     "adresse_geocodee": ""
   },
   {
-    "nom": "PRESTA-EXPRESS",
-    "rue": "ESPACE CORMONTAIGNE",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 123",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2025-2026": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.356317,
-      6.195276
-    ],
-    "adresse_geocodee": "Yutz"
-  },
-  {
     "nom": "SOLUTIONS INDUSTRY & BUILDING",
     "rue": "25 RUE THEOPHILE SOMBORN",
     "code_postal": "57220",
@@ -3278,32 +3061,6 @@ const lieux = [
     "adresse_geocodee": "176, Route de Longwy 4831 Rodange"
   },
   {
-    "nom": "CLIMALI",
-    "rue": "4 Rue des Aulnes",
-    "code_postal": "57290",
-    "commune": "FAMECK",
-    "pays": "FR",
-    "source": "CIEL, ligne 132",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2022-2023": 2,
-      "2023-2024": 2,
-      "2024-2025": 4
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.299164,
-      6.103328
-    ],
-    "adresse_geocodee": "Fameck"
-  },
-  {
     "nom": "NIDEC PSA EMOTORS",
     "rue": "Site de Trémery",
     "code_postal": "57300",
@@ -3357,32 +3114,6 @@ const lieux = [
       6.148312
     ],
     "adresse_geocodee": "7 Impasse Colbert 57100 Thionville"
-  },
-  {
-    "nom": "WINTERSDORFF ETS",
-    "rue": "118 route de Boudersberg",
-    "code_postal": "L-3428",
-    "commune": "DUDELANGE",
-    "pays": "LU",
-    "source": "CIEL, ligne 135",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2022-2023": 3,
-      "2023-2024": 1,
-      "2024-2025": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.491171,
-      6.068838
-    ],
-    "adresse_geocodee": "118, Route de Boudersberg 3428 Dudelange"
   },
   {
     "nom": "MAIRIE DE LONGWY",
@@ -3713,30 +3444,6 @@ const lieux = [
       6.166885
     ],
     "adresse_geocodee": "Richemont"
-  },
-  {
-    "nom": "SASU SORODILO TIM TELECOM",
-    "rue": "3 rue du four banal",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 149",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2024-2025": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.35798,
-      6.165947
-    ],
-    "adresse_geocodee": "3 Rue du Four Banal 57100 Thionville"
   },
   {
     "nom": "SITEVO",
@@ -4485,31 +4192,6 @@ const lieux = [
     "adresse_geocodee": "Clouange"
   },
   {
-    "nom": "DIB TAXI PHONE",
-    "rue": "4 rue brûlée",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 180",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2022-2023": 1,
-      "2023-2024": 6
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.357142,
-      6.165555
-    ],
-    "adresse_geocodee": "4 Rue Brûlée 57100 Thionville"
-  },
-  {
     "nom": "SET FORGE HOT FORMERS",
     "rue": "Avenue de France",
     "code_postal": "57300",
@@ -4617,37 +4299,6 @@ const lieux = [
     "adresse_geocodee": "16 Rue du Forgeron 57180 Terville"
   },
   {
-    "nom": "PC  PLUS",
-    "rue": "2A place du Luxembourg",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 185",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 4,
-      "2016-2017": 3,
-      "2017-2018": 10,
-      "2018-2019": 5,
-      "2020-2021": 5,
-      "2021-2022": 4,
-      "2022-2023": 4,
-      "2023-2024": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.358973,
-      6.169265
-    ],
-    "adresse_geocodee": "2a Place du Luxembourg 57100 Thionville"
-  },
-  {
     "nom": "ETABLISSEMENT HERTZEL SAS",
     "rue": "4 rue de Edling",
     "code_postal": "57320",
@@ -4697,32 +4348,6 @@ const lieux = [
       5.59814
     ],
     "adresse_geocodee": "Longuyon"
-  },
-  {
-    "nom": "CALL'TECH CONSULTING",
-    "rue": "40, Route de Thionville",
-    "code_postal": "57140",
-    "commune": "WOIPPY",
-    "pays": "FR",
-    "source": "CIEL, ligne 188",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2021-2022": 3,
-      "2022-2023": 1,
-      "2023-2024": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.175684,
-      6.161241
-    ],
-    "adresse_geocodee": "40 Route de Thionville 57140 Woippy"
   },
   {
     "nom": "E.R.G.C. REPAIR GLOBAL CENTER",
@@ -5491,30 +5116,6 @@ const lieux = [
     "adresse_geocodee": "12bis Rue de la Moselle 57680 Corny-sur-Moselle"
   },
   {
-    "nom": "HENRIQUE BICHO EIRL",
-    "rue": "26 rue Neuf Ville",
-    "code_postal": "54730",
-    "commune": "GORCY",
-    "pays": "FR",
-    "source": "CIEL, ligne 220",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2023-2024": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.545878,
-      5.678327
-    ],
-    "adresse_geocodee": "26 Rue Neuf Ville 54730 Gorcy"
-  },
-  {
     "nom": "IDEA CONSTRUCTION",
     "rue": "113 ROUTE DE METZ",
     "code_postal": "57100",
@@ -5773,30 +5374,6 @@ const lieux = [
     "adresse_geocodee": "19, Rue Geespelt 3378 Livange"
   },
   {
-    "nom": "VAD CONCEPT",
-    "rue": "4 Rue du 13 novembre",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 232",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2023-2024": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.365324,
-      6.206161
-    ],
-    "adresse_geocodee": "4 Rue du 13 Novembre 57970 Yutz"
-  },
-  {
     "nom": "VILLE DE LUXEMBOURG - ADMINISTRATION C.",
     "rue": "2 Bld Franklin ROOSEVELT",
     "code_postal": "L-2450",
@@ -5819,30 +5396,6 @@ const lieux = [
       6.12734
     ],
     "adresse_geocodee": "2, Boulevard Franklin D. Roosevelt 2450 Luxembourg"
-  },
-  {
-    "nom": "VRIT CONSULT EURL",
-    "rue": "4 Route De L'audronniére",
-    "code_postal": "41400",
-    "commune": "Faverolles sur cher",
-    "pays": "FR",
-    "source": "CIEL, ligne 234",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2023-2024": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      47.332951,
-      1.164877
-    ],
-    "adresse_geocodee": "4 Route de l’Audronniere 41400 Faverolles-sur-Cher"
   },
   {
     "nom": "MAIRIE DE TERVILLE - SERVICE INFORMATIQU.",
@@ -6023,34 +5576,6 @@ const lieux = [
     "adresse_geocodee": "3 Rue du Maréchal Leclerc 57970 Yutz"
   },
   {
-    "nom": "CABLEGO",
-    "rue": "6 zone industrielle",
-    "code_postal": "54190",
-    "commune": "TIERCELET",
-    "pays": "FR",
-    "source": "CIEL, ligne 242",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 4,
-      "2016-2017": 1,
-      "2017-2018": 1,
-      "2018-2019": 2,
-      "2022-2023": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.457692,
-      5.872656
-    ],
-    "adresse_geocodee": "6 Zone Industrielle 54190 Tiercelet"
-  },
-  {
     "nom": "AUCHAN POLE EUROPE",
     "rue": "1 Boulevard de l'Europe",
     "code_postal": "54350",
@@ -6226,56 +5751,6 @@ const lieux = [
       5.941127
     ],
     "adresse_geocodee": "13, Boulevard du Jazz 4370 Belvaux"
-  },
-  {
-    "nom": "PC SOLIDAIRE METZ",
-    "rue": "4 place Jean JAURES",
-    "code_postal": "57050",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 250",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2021-2022": 1,
-      "2022-2023": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.134465,
-      6.170217
-    ],
-    "adresse_geocodee": "4 Place Jean Jaurès 57050 Metz"
-  },
-  {
-    "nom": "THERMO EST",
-    "rue": "P.I. du Malambas",
-    "code_postal": "57283",
-    "commune": "HAUCONCOURT",
-    "pays": "FR",
-    "source": "CIEL, ligne 251",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 2,
-      "2022-2023": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.21002,
-      6.184249
-    ],
-    "adresse_geocodee": "Hauconcourt"
   },
   {
     "nom": "AUCHAN Dudelange",
@@ -6721,30 +6196,6 @@ const lieux = [
     "adresse_geocodee": "312, Z.A.E. WOLSER F 3290 Bettembourg"
   },
   {
-    "nom": "KOESIO GRAND EST- Marly",
-    "rue": "178 avenue des roseaux",
-    "code_postal": "57155",
-    "commune": "MARLY",
-    "pays": "FR",
-    "source": "CIEL, ligne 270",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2022-2023": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.064435,
-      6.136747
-    ],
-    "adresse_geocodee": "178 Avenue des Roseaux 57155 Marly"
-  },
-  {
     "nom": "L'ETABLI DE PAPY LOUIS",
     "rue": "9 Place St Louis",
     "code_postal": "57000",
@@ -7003,58 +6454,6 @@ const lieux = [
     "adresse_geocodee": "75, Avenue Grande-Duchesse Charlotte 3441 Dudelange"
   },
   {
-    "nom": "STAR GSM",
-    "rue": "43 rue de la République",
-    "code_postal": "57320",
-    "commune": "BOUZONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 282",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 3,
-      "2018-2019": 3,
-      "2020-2021": 5,
-      "2021-2022": 7
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.29191,
-      6.533617
-    ],
-    "adresse_geocodee": "43 Rue de la République 57320 Bouzonville"
-  },
-  {
-    "nom": "DIGITAL X-PERT",
-    "rue": "49 rue dre Longwy",
-    "code_postal": "57190",
-    "commune": "FLORANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 283",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 2,
-      "2021-2022": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.31829,
-      6.106434
-    ],
-    "adresse_geocodee": "49 Rue de Longwy 57190 Florange"
-  },
-  {
     "nom": "MAIRIE DE VILLERUPT",
     "rue": "5 avenue Albert Lebrun",
     "code_postal": "54190",
@@ -7127,30 +6526,6 @@ const lieux = [
       6.231189
     ],
     "adresse_geocodee": "Rue Kennedy 57310 Rurange-lès-Thionville"
-  },
-  {
-    "nom": "PHONE CARE",
-    "rue": "Place Jean Spinga",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 287",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2021-2022": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.125151,
-      6.176416
-    ],
-    "adresse_geocodee": "Place Jean Spinga 57000 Metz"
   },
   {
     "nom": "SEINE ET MARNE NUMERIQUE",
@@ -7358,83 +6733,6 @@ const lieux = [
       6.05974
     ],
     "adresse_geocodee": "Avenue de la Metropole 57700 Hayange"
-  },
-  {
-    "nom": "PHONE UP",
-    "rue": "5 rue Clémenceau",
-    "code_postal": "57360",
-    "commune": "AMNÉVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 296",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1,
-      "2021-2022": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.259446,
-      6.142017
-    ],
-    "adresse_geocodee": "5 Rue Georges Clemenceau 57360 Amnéville"
-  },
-  {
-    "nom": "SEAFF VALLEE DE LA FENSCH",
-    "rue": "36 RUE DE METZ",
-    "code_postal": "57650",
-    "commune": "FONTOY",
-    "pays": "FR",
-    "source": "CIEL, ligne 297",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1,
-      "2021-2022": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.354316,
-      5.999279
-    ],
-    "adresse_geocodee": "36 Rue de Metz 57650 Fontoy"
-  },
-  {
-    "nom": "M.P.M. AUDIOLIGHT SAS",
-    "rue": "zone artisanale Saint-Vincent",
-    "code_postal": "57147",
-    "commune": "WOIPPY CEDEX",
-    "pays": "FR",
-    "source": "CIEL, ligne 298",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 4,
-      "2016-2017": 1,
-      "2017-2018": 4,
-      "2021-2022": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.157719,
-      6.149873
-    ],
-    "adresse_geocodee": "Woippy"
   },
   {
     "nom": "MAIRIE DE CLOUANGE",
@@ -7800,54 +7098,6 @@ const lieux = [
     "adresse_geocodee": "25, Boulevard F.W. Raiffeisen 2411 Luxembourg"
   },
   {
-    "nom": "INEO INDUSTRIE & TERTIAIRE EST",
-    "rue": "44 rue du lac",
-    "code_postal": "57500",
-    "commune": "SAINT-AVOLD",
-    "pays": "FR",
-    "source": "CIEL, ligne 314",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2021-2022": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.11279,
-      6.702111
-    ],
-    "adresse_geocodee": "44 Rue du Lac 57500 Saint-Avold"
-  },
-  {
-    "nom": "INFORMATIQUE SMARTPHONES",
-    "rue": "3 rue Pasteur",
-    "code_postal": "57130",
-    "commune": "ARS-SUR-MOSELLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 315",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2021-2022": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.075222,
-      6.076923
-    ],
-    "adresse_geocodee": "Rue Pasteur 57130 Ars-sur-Moselle"
-  },
-  {
     "nom": "INSTITUT OF SCIENCE AND TECHNOLOGY",
     "rue": "5 Avenue des Hauts Fourneaux",
     "code_postal": "L-4362",
@@ -8061,34 +7311,6 @@ const lieux = [
     "adresse_geocodee": "69, Boulevard de la Pétrusse 2320 Luxembourg"
   },
   {
-    "nom": "SOS ORDINATEUR FRANCE",
-    "rue": "60 rue de la gare",
-    "code_postal": "57300",
-    "commune": "HAGONDANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 325",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 4,
-      "2016-2017": 6,
-      "2017-2018": 4,
-      "2018-2019": 3,
-      "2020-2021": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.252603,
-      6.165114
-    ],
-    "adresse_geocodee": "60 Rue de la Gare 57300 Hagondange"
-  },
-  {
     "nom": "CLEAN ONE TOP SERVICES",
     "rue": "31 Rue St Pierre",
     "code_postal": "57000",
@@ -8165,30 +7387,6 @@ const lieux = [
     "adresse_geocodee": "29 Avenue Francois Mitterrand 57290 Fameck"
   },
   {
-    "nom": "C DESIGN SARL",
-    "rue": "169 route de Verdun",
-    "code_postal": "57180",
-    "commune": "TERVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 329",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.344492,
-      6.133452
-    ],
-    "adresse_geocodee": "169 Route de Verdun 57180 Terville"
-  },
-  {
     "nom": "FULL INFO SERVICES",
     "rue": "3 rue des Micocouliers",
     "code_postal": "06800",
@@ -8235,30 +7433,6 @@ const lieux = [
       6.167503
     ],
     "adresse_geocodee": "17 Avenue Clémenceau 57100 Thionville"
-  },
-  {
-    "nom": "PERIN SECURITE",
-    "rue": "73 rue des Forges St Charles",
-    "code_postal": "08000",
-    "commune": "CHARLEVILLE-MEZIERE.",
-    "pays": "FR",
-    "source": "CIEL, ligne 332",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.767083,
-      4.726095
-    ],
-    "adresse_geocodee": "73 Rue des Forges Saint Charles 08000 Charleville-Mézières"
   },
   {
     "nom": "POWERSOL",
@@ -8333,32 +7507,6 @@ const lieux = [
     "adresse_geocodee": "Rue du Prayon 57685 Augny"
   },
   {
-    "nom": "ECO CLIM",
-    "rue": "26 rue du stade",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 336",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 2,
-      "2018-2019": 1,
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.346497,
-      6.192521
-    ],
-    "adresse_geocodee": "26 Rue du Stade 57970 Yutz"
-  },
-  {
     "nom": "BRS SARL",
     "rue": "17 rue principale",
     "code_postal": "L-5290",
@@ -8407,57 +7555,6 @@ const lieux = [
       5.957299
     ],
     "adresse_geocodee": "3, Rue des Trois Cantons 8399 Windhof (Koerich)"
-  },
-  {
-    "nom": "MONDELANGE PC",
-    "rue": "1 rue Paul Eluard",
-    "code_postal": "57525",
-    "commune": "TALANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 339",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 3,
-      "2017-2018": 5,
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.237905,
-      6.166812
-    ],
-    "adresse_geocodee": "1 Rue Paul Eluard 57525 Talange"
-  },
-  {
-    "nom": "HOME IPHONE SERVICE - STAR GSM",
-    "rue": "51 rue de la Chapelle",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 340",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1,
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.100057,
-      6.173094
-    ],
-    "adresse_geocodee": "51 Rue de la Chapelle 57000 Metz"
   },
   {
     "nom": "MAIRIE DE GUENANGE",
@@ -8509,30 +7606,6 @@ const lieux = [
     "adresse_geocodee": "9 Rue Blaise Pascal 54320 Maxéville"
   },
   {
-    "nom": "ALICE PERCHAUD",
-    "rue": "177 Chemin de la Builliassière",
-    "code_postal": "38122",
-    "commune": "COUR-ET-BUIS",
-    "pays": "FR",
-    "source": "CIEL, ligne 343",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      45.444745,
-      5.003362
-    ],
-    "adresse_geocodee": "Chemin de la buillassière 38122 Cour-et-Buis"
-  },
-  {
     "nom": "ANTHARES DSI",
     "rue": "108 rue de Thionville",
     "code_postal": "57970",
@@ -8555,54 +7628,6 @@ const lieux = [
       6.150548
     ],
     "adresse_geocodee": "Thionville"
-  },
-  {
-    "nom": "APREX SOLUTIONS",
-    "rue": "2 Allée André Guinier",
-    "code_postal": "54000",
-    "commune": "NANCY",
-    "pays": "FR",
-    "source": "CIEL, ligne 345",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      48.688135,
-      6.171263
-    ],
-    "adresse_geocodee": "Nancy"
-  },
-  {
-    "nom": "AROBACE PC",
-    "rue": "4 rue Stephen Liegeart",
-    "code_postal": "54150",
-    "commune": "VAL DE BRIEY",
-    "pays": "FR",
-    "source": "CIEL, ligne 346",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.249508,
-      5.941137
-    ],
-    "adresse_geocodee": "4 Rue Stephen Liegeard 54150 Val de Briey"
   },
   {
     "nom": "ARTHUR WELTER SERVICES",
@@ -8863,30 +7888,6 @@ const lieux = [
     "adresse_geocodee": "25, Rue Nic. Biever 3425 Dudelange"
   },
   {
-    "nom": "DIRECTION DÉPARTEMENTALE SÉCURITÉ PU.",
-    "rue": "45 rue Belle Isle",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 358",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.123389,
-      6.171529
-    ],
-    "adresse_geocodee": "Rue Belle-Isle 57000 Metz"
-  },
-  {
     "nom": "EARTHLAB LUXEMBOURG S.A.",
     "rue": "49 RUE DU BAERENDALL",
     "code_postal": "L-8212",
@@ -9100,54 +8101,6 @@ const lieux = [
     "adresse_geocodee": "25, Rue Auguste Collart 3220 Bettembourg"
   },
   {
-    "nom": "MADAME NATHALIE URBAN - PAPI ET MAMIE C.",
-    "rue": "90 rue Erckermann Chatrian",
-    "code_postal": "54190",
-    "commune": "VILLERUPT",
-    "pays": "FR",
-    "source": "CIEL, ligne 368",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.464892,
-      5.939482
-    ],
-    "adresse_geocodee": "90 Rue Erckmann Chatrian 54190 Villerupt"
-  },
-  {
-    "nom": "ONF AGENCE DE METZ",
-    "rue": "1 rue Thomas Edison",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 369",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.108385,
-      6.194891
-    ],
-    "adresse_geocodee": "Metz"
-  },
-  {
     "nom": "POST GROUP LUXEMBOURG",
     "rue": "20 rue de Reims",
     "code_postal": "L-2417",
@@ -9313,30 +8266,6 @@ const lieux = [
     "adresse_geocodee": "16 Rue du Commandant Brasseur 57050 Metz"
   },
   {
-    "nom": "TECH BOX",
-    "rue": "14 rue de l'hérault",
-    "code_postal": "57070",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 377",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2020-2021": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.12074,
-      6.198146
-    ],
-    "adresse_geocodee": "14 Rue de l'Hérault 57070 Metz"
-  },
-  {
     "nom": "THEATRE DE NIHILO NIHIL",
     "rue": "37 RUE DE L'EGLISE",
     "code_postal": "57920",
@@ -9383,31 +8312,6 @@ const lieux = [
       6.085355
     ],
     "adresse_geocodee": "75, Avenue Grande-Duchesse Charlotte 3441 Dudelange"
-  },
-  {
-    "nom": "SARL STARGSM",
-    "rue": "43 rue de la République",
-    "code_postal": "57320",
-    "commune": "BOUZONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 380",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 2,
-      "2018-2019": 8
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.29191,
-      6.533617
-    ],
-    "adresse_geocodee": "43 Rue de la République 57320 Bouzonville"
   },
   {
     "nom": "MONDELANGE PC",
@@ -9654,30 +8558,6 @@ const lieux = [
       6.194891
     ],
     "adresse_geocodee": "Metz"
-  },
-  {
-    "nom": "DIGICOM FAMECK",
-    "rue": "16 place du marché",
-    "code_postal": "57290",
-    "commune": "FAMECK",
-    "pays": "FR",
-    "source": "CIEL, ligne 391",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.30666,
-      6.102367
-    ],
-    "adresse_geocodee": "16 place du marché 57290 Fameck"
   },
   {
     "nom": "FRESH GRAND CANAL",
@@ -9973,54 +8853,6 @@ const lieux = [
     "adresse_geocodee": "CAPELLEN"
   },
   {
-    "nom": "AC COMMUNICATION",
-    "rue": "1 rue de la gare",
-    "code_postal": "57270",
-    "commune": "UCKANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 404",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.300981,
-      6.158479
-    ],
-    "adresse_geocodee": "1 Rue de la Gare 57270 Uckange"
-  },
-  {
-    "nom": "AUTO ECOLE PERMIS EN POCHE",
-    "rue": "7 place d'Angliers",
-    "code_postal": "57840",
-    "commune": "OTTANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 405",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.441746,
-      6.017953
-    ],
-    "adresse_geocodee": "7 Place d’Angliers 57840 Ottange"
-  },
-  {
     "nom": "AUX FRONTIERES DU PIXEL",
     "rue": "rue de l'Europe",
     "code_postal": "57360",
@@ -10043,30 +8875,6 @@ const lieux = [
       6.133687
     ],
     "adresse_geocodee": "Avenue de l'Europe 57360 Amnéville"
-  },
-  {
-    "nom": "CASH EXPRESS",
-    "rue": "rue Jean Norton Cru",
-    "code_postal": "55100",
-    "commune": "VERDUN",
-    "pays": "FR",
-    "source": "CIEL, ligne 407",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.147733,
-      5.410035
-    ],
-    "adresse_geocodee": "Rue Jean Norton Cru 55100 Verdun"
   },
   {
     "nom": "CENTRE DE TRADUCTION DES ORGANES DE L.",
@@ -10165,30 +8973,6 @@ const lieux = [
     "adresse_geocodee": "50, Route de Longwy 8080 Bertrange"
   },
   {
-    "nom": "MY PHONE YUTZ",
-    "rue": "61 avenue des Nations",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 412",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.358721,
-      6.190502
-    ],
-    "adresse_geocodee": "61 Avenue des Nations 57970 Yutz"
-  },
-  {
     "nom": "ODTEK - DOCTEUR ORDINATEUR",
     "rue": "121 avenue Montaigne",
     "code_postal": "33160",
@@ -10237,30 +9021,6 @@ const lieux = [
     "adresse_geocodee": "3 Rue de la Marne 57120 Rombas"
   },
   {
-    "nom": "PLATEFORME PREFERENCE GRAND EST",
-    "rue": "ZA des Deux Fontaines",
-    "code_postal": "57050",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 415",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.108385,
-      6.194891
-    ],
-    "adresse_geocodee": "Metz"
-  },
-  {
     "nom": "SAMU INFORMATIQUE",
     "rue": "31 rue du Général Franiatte",
     "code_postal": "57950",
@@ -10307,30 +9067,6 @@ const lieux = [
       2.99474
     ],
     "adresse_geocodee": "Oignies"
-  },
-  {
-    "nom": "TESSI DOCUMENTS SERVICES CRC METZ",
-    "rue": "10 rue du lieutenant Yves Le Saux",
-    "code_postal": "57685",
-    "commune": "AUGNY",
-    "pays": "FR",
-    "source": "CIEL, ligne 418",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2018-2019": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.072453,
-      6.119672
-    ],
-    "adresse_geocodee": "Rue du Lieutenant Yves Le Saux 57685 Augny"
   },
   {
     "nom": "YAAKADEV SA",
@@ -10383,58 +9119,6 @@ const lieux = [
     "adresse_geocodee": "11, Rue du Brill 3898 Foetz"
   },
   {
-    "nom": "ELECTRO SERVICE",
-    "rue": "81 rue de Metz",
-    "code_postal": "57300",
-    "commune": "HAGONDANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 421",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1,
-      "2016-2017": 3,
-      "2017-2018": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.249246,
-      6.169892
-    ],
-    "adresse_geocodee": "81 Rue de Metz 57300 Hagondange"
-  },
-  {
-    "nom": "JS TELEBOUTIQUE",
-    "rue": "2 rue de l'hôtel de ville",
-    "code_postal": "54400",
-    "commune": "LONGWY",
-    "pays": "FR",
-    "source": "CIEL, ligne 422",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1,
-      "2016-2017": 3,
-      "2017-2018": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.522801,
-      5.762321
-    ],
-    "adresse_geocodee": "2 Rue de l'Hôtel de Ville 54400 Longwy"
-  },
-  {
     "nom": "KPC COMPUTER SA",
     "rue": "41 rue du Brill",
     "code_postal": "L-4041",
@@ -10483,32 +9167,6 @@ const lieux = [
     "adresse_geocodee": "24, Rue de Tétange 3672 Kayl"
   },
   {
-    "nom": "OK INFORMATIQUE",
-    "rue": "434 avenue du 15ème corps",
-    "code_postal": "83200",
-    "commune": "TOULON",
-    "pays": "FR",
-    "source": "CIEL, ligne 425",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1,
-      "2016-2017": 2,
-      "2017-2018": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      43.128638,
-      5.91248
-    ],
-    "adresse_geocodee": "434 Avenue du 15ème Corps 83200 Toulon"
-  },
-  {
     "nom": "CENTRE HOSPITALIER EMILE MAYRISCH",
     "rue": "BP 436",
     "code_postal": "L-4005",
@@ -10529,31 +9187,6 @@ const lieux = [
     "precision": "absente",
     "coordonnees": null,
     "adresse_geocodee": ""
-  },
-  {
-    "nom": "MOSAÏK TELEVISION SANS FRONTIERES",
-    "rue": "107 rue du Maréchal Foch",
-    "code_postal": "57200",
-    "commune": "SARREGUEMINES",
-    "pays": "FR",
-    "source": "CIEL, ligne 427",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 2,
-      "2017-2018": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.118,
-      7.0837
-    ],
-    "adresse_geocodee": "107 Rue du Marechal Foch 57200 Sarreguemines"
   },
   {
     "nom": "SER TEC",
@@ -10579,31 +9212,6 @@ const lieux = [
       6.065348
     ],
     "adresse_geocodee": "LEUDELANGE"
-  },
-  {
-    "nom": "J.E.M.S.",
-    "rue": "1 rue en Machotte",
-    "code_postal": "57130",
-    "commune": "JOUY AUX ARCHES",
-    "pays": "FR",
-    "source": "CIEL, ligne 429",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1,
-      "2017-2018": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.079714,
-      6.1001
-    ],
-    "adresse_geocodee": "En Machotte 57130 Jouy-aux-Arches"
   },
   {
     "nom": "AFPA",
@@ -10778,55 +9386,6 @@ const lieux = [
     "adresse_geocodee": "22 Rue de la Fontaine 57300 Hagondange"
   },
   {
-    "nom": "LAUREN INFORMATIQUE",
-    "rue": "43 rue Clémenceau",
-    "code_postal": "57185",
-    "commune": "CLOUANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 437",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 2,
-      "2017-2018": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.259587,
-      6.094535
-    ],
-    "adresse_geocodee": "43 Rue Clemenceau 57185 Clouange"
-  },
-  {
-    "nom": "AP CARRELAGES SAS",
-    "rue": "43 rue du Général Castelneau",
-    "code_postal": "57700",
-    "commune": "HAYANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 438",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.32547,
-      6.056932
-    ],
-    "adresse_geocodee": "43 Rue General de Castelnau 57700 Hayange"
-  },
-  {
     "nom": "CCIT DE LA MOSELLE",
     "rue": "10-12 avenue FOCH",
     "code_postal": "57016",
@@ -10945,51 +9504,6 @@ const lieux = [
       6.121594
     ],
     "adresse_geocodee": "142, Rue Albert Unden 2652 Luxembourg"
-  },
-  {
-    "nom": "DOUCEUR POUDREE",
-    "rue": "6 AVENUE HIPPOLYTE HUART",
-    "code_postal": "54400",
-    "commune": "LONGWY-HERSERANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 444",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
-  },
-  {
-    "nom": "ETS COMMUNEAU",
-    "rue": "23a rue Raymond Mondon",
-    "code_postal": "57120",
-    "commune": "ROMBAS",
-    "pays": "FR",
-    "source": "CIEL, ligne 445",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.252986,
-      6.094545
-    ],
-    "adresse_geocodee": "23a Rue Raymond Mondon 57120 Rombas"
   },
   {
     "nom": "FRANCE TRANSFO SCHNEIDER",
@@ -11138,30 +9652,6 @@ const lieux = [
     "adresse_geocodee": "Folschviller"
   },
   {
-    "nom": "SOLUTIC 57",
-    "rue": "2 boulevard Becquerel",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 452",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2017-2018": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.34877,
-      6.173117
-    ],
-    "adresse_geocodee": "2 Boulevard Henri Becquerel 57970 Yutz"
-  },
-  {
     "nom": "SORODILO ESPACE SFR",
     "rue": "8 rue du Four Banal",
     "code_postal": "57100",
@@ -11235,30 +9725,6 @@ const lieux = [
     "adresse_geocodee": ", Rue de l'Aciérie 1112 Luxembourg"
   },
   {
-    "nom": "GSM DEBLOCAGE & REPARATIONS",
-    "rue": "101 avenue Bogdan Politanski",
-    "code_postal": "54810",
-    "commune": "LONGLAVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 456",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.535915,
-      5.803438
-    ],
-    "adresse_geocodee": "101 Avenue Bogdan Politanski 54810 Longlaville"
-  },
-  {
     "nom": "COTTEL EXPERT",
     "rue": "16 rue des Charpentiers",
     "code_postal": "57070",
@@ -11309,55 +9775,6 @@ const lieux = [
     "adresse_geocodee": "Clouange"
   },
   {
-    "nom": "QUINTO MARIOTTI HIFI VIDEO MENAGER",
-    "rue": "9 avenue Bogdane Politanski",
-    "code_postal": "54810",
-    "commune": "LONGLAVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 459",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 2,
-      "2016-2017": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.534139,
-      5.798091
-    ],
-    "adresse_geocodee": "9 Avenue Bogdan Politanski 54810 Longlaville"
-  },
-  {
-    "nom": "3G INFORMATIQUE",
-    "rue": "4 rue de la grange aux ormes",
-    "code_postal": "57155",
-    "commune": "MARLY",
-    "pays": "FR",
-    "source": "CIEL, ligne 460",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.07987,
-      6.149683
-    ],
-    "adresse_geocodee": "4 Rue de la Grange Aux Ormes 57155 Marly"
-  },
-  {
     "nom": "TELINDUS",
     "rue": "2 rue des mines",
     "code_postal": "L-4244",
@@ -11377,31 +9794,6 @@ const lieux = [
     "precision": "absente",
     "coordonnees": null,
     "adresse_geocodee": ""
-  },
-  {
-    "nom": "ATELIER ELECTROTECHNIQUE DOMINIQUE S.",
-    "rue": "3 lotissement le Château",
-    "code_postal": "57920",
-    "commune": "HOMBOURG BUDANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 462",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 2,
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.297295,
-      6.340404
-    ],
-    "adresse_geocodee": "3 Lotissement le Chateau 57920 Hombourg-Budange"
   },
   {
     "nom": "CORA MOULINS LES METZ - S. A. V.",
@@ -11502,30 +9894,6 @@ const lieux = [
       6.224529
     ],
     "adresse_geocodee": "ASPELT"
-  },
-  {
-    "nom": "AZ DISTRIBUTION Mobilax Repair",
-    "rue": "6 rue Brûlée",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 467",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.357202,
-      6.165504
-    ],
-    "adresse_geocodee": "6 Rue Brûlée 57100 Thionville"
   },
   {
     "nom": "BANQUE POPULAIRE ALSACE LORRAINE CHA.",
@@ -11834,54 +10202,6 @@ const lieux = [
     "adresse_geocodee": ""
   },
   {
-    "nom": "MAGASIT SAS",
-    "rue": "1 rue Wanagari Maatai",
-    "code_postal": "57140",
-    "commune": "NORROY LE VENEUR C.",
-    "pays": "FR",
-    "source": "CIEL, ligne 481",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.177944,
-      6.146241
-    ],
-    "adresse_geocodee": "1 Rue Wangari Maathai 57140 Norroy-le-Veneur"
-  },
-  {
-    "nom": "MARX ENTREPRISES SARL",
-    "rue": "Enseigne Bulle Event",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 482",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.367366,
-      6.150548
-    ],
-    "adresse_geocodee": "Thionville"
-  },
-  {
     "nom": "NF TECH",
     "rue": "2 BIS RUE DREYFUS DUPONT",
     "code_postal": "57050",
@@ -11932,30 +10252,6 @@ const lieux = [
     "adresse_geocodee": "20, Rue Zénon Bernard 4030 Esch-sur-Alzette"
   },
   {
-    "nom": "QUICKCONTEST SAS",
-    "rue": "7 AVENUE DE BLIDA",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 485",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.126989,
-      6.183633
-    ],
-    "adresse_geocodee": "7 Avenue de Blida 57000 Metz"
-  },
-  {
     "nom": "REXEL",
     "rue": "8 allée du Chateau de Gassion",
     "code_postal": "57100",
@@ -12004,30 +10300,6 @@ const lieux = [
     "adresse_geocodee": "29, Route de Kehlen 8235 Mamer"
   },
   {
-    "nom": "SYXPERIANE",
-    "rue": "129 avenue de Paris",
-    "code_postal": "51000",
-    "commune": "CHALONS-EN-CHAMPA.",
-    "pays": "FR",
-    "source": "CIEL, ligne 488",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2016-2017": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      48.954259,
-      4.337701
-    ],
-    "adresse_geocodee": "129 Avenue de Paris 51000 Châlons-en-Champagne"
-  },
-  {
     "nom": "T. B. M. QUARTIVAC",
     "rue": "Z. A. Ardant du Picq",
     "code_postal": "54260",
@@ -12052,54 +10324,6 @@ const lieux = [
     "adresse_geocodee": "Rue Ardant du Picq 54260 Longuyon"
   },
   {
-    "nom": "AKERS FRANCE",
-    "rue": "Chemin du Leidt",
-    "code_postal": "57109",
-    "commune": "THIONVILLE CEDEX",
-    "pays": "FR",
-    "source": "CIEL, ligne 490",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 6
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.367366,
-      6.150548
-    ],
-    "adresse_geocodee": "Thionville"
-  },
-  {
-    "nom": "SIGMA TECHNOLOGIE",
-    "rue": "4 rue Alfred Labbé",
-    "code_postal": "54350",
-    "commune": "MONT ST MARTIN",
-    "pays": "FR",
-    "source": "CIEL, ligne 491",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 3
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.538047,
-      5.779487
-    ],
-    "adresse_geocodee": "4 Rue Alfred Labbé 54350 Mont-Saint-Martin"
-  },
-  {
     "nom": "DARTY ALSACE LORRAINE",
     "rue": "route du Linkling",
     "code_postal": "57180",
@@ -12122,30 +10346,6 @@ const lieux = [
       6.13459
     ],
     "adresse_geocodee": "Terville"
-  },
-  {
-    "nom": "JUMA ELECTRONIQUE",
-    "rue": "6-10 avenue de la République",
-    "code_postal": "54150",
-    "commune": "BRIEY",
-    "pays": "FR",
-    "source": "CIEL, ligne 493",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "rue",
-    "coordonnees": [
-      49.245521,
-      5.940075
-    ],
-    "adresse_geocodee": "10 Avenue de la République (Briey) 54150 Val de Briey"
   },
   {
     "nom": "MAIRIE DE THIONVILLE - LA SCALA",
@@ -12244,30 +10444,6 @@ const lieux = [
     "adresse_geocodee": "2 Place de la Poste 54135 Mexy"
   },
   {
-    "nom": "SYSOCO",
-    "rue": "9 rue des acacias",
-    "code_postal": "57140",
-    "commune": "LA MAXE",
-    "pays": "FR",
-    "source": "CIEL, ligne 498",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.15505,
-      6.184063
-    ],
-    "adresse_geocodee": "9 Rue Acacias 57140 La Maxe"
-  },
-  {
     "nom": "TEDI  DIGITAL",
     "rue": "75 rue de Pont à Mousson",
     "code_postal": "57950",
@@ -12311,30 +10487,6 @@ const lieux = [
     "precision": "absente",
     "coordonnees": null,
     "adresse_geocodee": ""
-  },
-  {
-    "nom": "ANTENOR",
-    "rue": "11 rue de la gare",
-    "code_postal": "57940",
-    "commune": "METZERVISSE",
-    "pays": "FR",
-    "source": "CIEL, ligne 501",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.316117,
-      6.286099
-    ],
-    "adresse_geocodee": "11 Rue de la Gare 57940 Metzervisse"
   },
   {
     "nom": "ATMOSPHERE INFORMATIQUE",
@@ -12404,30 +10556,6 @@ const lieux = [
       6.127165
     ],
     "adresse_geocodee": "Rue des Artisans 57190 Florange"
-  },
-  {
-    "nom": "BUT LONGWY SAS MARAL",
-    "rue": "92 rue de Longwy",
-    "code_postal": "54720",
-    "commune": "LEXY",
-    "pays": "FR",
-    "source": "CIEL, ligne 505",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.51327,
-      5.736237
-    ],
-    "adresse_geocodee": "92 Rue de Longwy 54720 Lexy"
   },
   {
     "nom": "CONTINENTAL FRANCE SNC",
@@ -12550,54 +10678,6 @@ const lieux = [
     "adresse_geocodee": "9, Rue Goethe 1637 Luxembourg"
   },
   {
-    "nom": "IMPRIMERIE L'HUILLIER",
-    "rue": "123 rue d'Uckange",
-    "code_postal": "57190",
-    "commune": "FLORANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 511",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.316692,
-      6.142163
-    ],
-    "adresse_geocodee": "123 Rue d’Uckange 57190 Florange"
-  },
-  {
-    "nom": "INFORMATIQUE SERVICE LORRAINE",
-    "rue": "5 rue de la folie",
-    "code_postal": "57530",
-    "commune": "COINCY",
-    "pays": "FR",
-    "source": "CIEL, ligne 512",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.109455,
-      6.280082
-    ],
-    "adresse_geocodee": "5 Rue de la Folie 57530 Coincy"
-  },
-  {
     "nom": "ITESA LUXEMBOURG",
     "rue": "6 rue des artisans",
     "code_postal": "L-3895",
@@ -12716,30 +10796,6 @@ const lieux = [
       6.117199
     ],
     "adresse_geocodee": "8 Rue Sainte Lucie 57190 Florange"
-  },
-  {
-    "nom": "PHARMACIE DU SOLEIL",
-    "rue": "47 rue de Paris",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 518",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2015-2016": 1
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.35663,
-      6.164931
-    ],
-    "adresse_geocodee": "47 Rue de Paris 57100 Thionville"
   },
   {
     "nom": "RADIO MAU NAU",
@@ -12882,28 +10938,6 @@ const lieux = [
       6.175074
     ],
     "adresse_geocodee": "40 Rue Saint-Pierre 57000 Metz"
-  },
-  {
-    "nom": "ACIA INFORMATIQUE",
-    "rue": "19 rue de Sarre",
-    "code_postal": "57070",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 525",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.115814,
-      6.23332
-    ],
-    "adresse_geocodee": "19 Rue de Sarre 57070 Metz"
   },
   {
     "nom": "ALLEN OVERY SHEARMAN STERLING SCS",
@@ -13106,28 +11140,6 @@ const lieux = [
     "adresse_geocodee": "1 Place de la Gare 57280 Maizières-lès-Metz"
   },
   {
-    "nom": "CENTRE HOSPITALIER DE SEDAN",
-    "rue": "2 avenue du général Margueritte",
-    "code_postal": "08200",
-    "commune": "SEDAN",
-    "pays": "FR",
-    "source": "CIEL, ligne 535",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.705097,
-      4.94053
-    ],
-    "adresse_geocodee": "2 Avenue du Général Margueritte 08200 Sedan"
-  },
-  {
     "nom": "CENTRE SOCIAL ET CULTUREL JACQUES PRE.",
     "rue": "10 boucle des prés de St Pierre",
     "code_postal": "57100",
@@ -13283,28 +11295,6 @@ const lieux = [
     "adresse_geocodee": ""
   },
   {
-    "nom": "CONSEIL REGIONAL DE LORRAINE",
-    "rue": "place Gabriel Hocquard",
-    "code_postal": "57036",
-    "commune": "METZ CEDEX 01",
-    "pays": "FR",
-    "source": "CIEL, ligne 543",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.108385,
-      6.194891
-    ],
-    "adresse_geocodee": "Metz"
-  },
-  {
     "nom": "CONSERVATOIRE REGIONAL DU GRAND NAN.",
     "rue": "1-3 rue Michel Ney",
     "code_postal": "54035",
@@ -13412,28 +11402,6 @@ const lieux = [
     "adresse_geocodee": "Metz"
   },
   {
-    "nom": "DOCAPOST APPLICAM",
-    "rue": "2 avenue Sébastopol",
-    "code_postal": "57072",
-    "commune": "METZ CEDEX 03",
-    "pays": "FR",
-    "source": "CIEL, ligne 549",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.108385,
-      6.194891
-    ],
-    "adresse_geocodee": "Metz"
-  },
-  {
     "nom": "DOTCOM LUXEMBOURG",
     "rue": "1 rue de Roeser",
     "code_postal": "L-5884",
@@ -13473,28 +11441,6 @@ const lieux = [
     "precision": "absente",
     "coordonnees": null,
     "adresse_geocodee": ""
-  },
-  {
-    "nom": "EASY COMPUTER METZ",
-    "rue": "18 rue des Augustins",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 552",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.11123,
-      6.178935
-    ],
-    "adresse_geocodee": "18 Rue des Augustins 57000 Metz"
   },
   {
     "nom": "EDF UNITEP",
@@ -13730,50 +11676,6 @@ const lieux = [
     "adresse_geocodee": "14, Rue du Père Raphaël 2413 Luxembourg"
   },
   {
-    "nom": "GLOBAL HF",
-    "rue": "43 chemin de la Corvée",
-    "code_postal": "57050",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 564",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.138664,
-      6.150408
-    ],
-    "adresse_geocodee": "43 Chemin de la Corvée 57050 Metz"
-  },
-  {
-    "nom": "GROUP DIGITAL TUB MUSIC",
-    "rue": "41 rue Saint-Martin",
-    "code_postal": "88800",
-    "commune": "VITTEL",
-    "pays": "FR",
-    "source": "CIEL, ligne 565",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      48.201163,
-      5.946948
-    ],
-    "adresse_geocodee": "41 Rue Saint-martin 88800 Vittel"
-  },
-  {
     "nom": "HAGER ELECTRO SAS",
     "rue": "132 boulevard de l'Europe",
     "code_postal": "67210",
@@ -13868,50 +11770,6 @@ const lieux = [
     "adresse_geocodee": "2, Rue des Joncs 1818 Howald"
   },
   {
-    "nom": "HTML INFORMATIQUE",
-    "rue": "parc saint Claire",
-    "code_postal": "83160",
-    "commune": "LA VALETTE DU VAR",
-    "pays": "FR",
-    "source": "CIEL, ligne 570",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      43.143841,
-      5.990889
-    ],
-    "adresse_geocodee": "La Valette-du-Var"
-  },
-  {
-    "nom": "INFOBUREAU",
-    "rue": "Black Stone Bat B",
-    "code_postal": "57070",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 571",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.108385,
-      6.194891
-    ],
-    "adresse_geocodee": "Metz"
-  },
-  {
     "nom": "INTERPACK",
     "rue": "ZI Scheleck 2",
     "code_postal": "L-3225",
@@ -13973,28 +11831,6 @@ const lieux = [
     "precision": "absente",
     "coordonnees": null,
     "adresse_geocodee": ""
-  },
-  {
-    "nom": "LCD SOLUTION",
-    "rue": "ZI Fatima",
-    "code_postal": "57150",
-    "commune": "CREUTZWALD",
-    "pays": "FR",
-    "source": "CIEL, ligne 575",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "commune",
-    "coordonnees": [
-      49.209495,
-      6.690135
-    ],
-    "adresse_geocodee": "Creutzwald"
   },
   {
     "nom": "LIBERTY LIEGE DUDELANGE",
@@ -14083,28 +11919,6 @@ const lieux = [
       6.06515
     ],
     "adresse_geocodee": "22, Rue de la Gare 3377 Leudelange"
-  },
-  {
-    "nom": "MANHATTAN",
-    "rue": "19 rue de la Sarre",
-    "code_postal": "57070",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 580",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.115814,
-      6.23332
-    ],
-    "adresse_geocodee": "19 Rue de Sarre 57070 Metz"
   },
   {
     "nom": "MENUISERIE ERIC MARTIN",
@@ -14258,28 +12072,6 @@ const lieux = [
     "adresse_geocodee": ""
   },
   {
-    "nom": "PIDEX",
-    "rue": "28 esplanade de la brasserie",
-    "code_postal": "57970",
-    "commune": "YUTZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 588",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.35811,
-      6.185486
-    ],
-    "adresse_geocodee": "28 Esplanade de la Brasserie 57970 Yutz"
-  },
-  {
     "nom": "PIERROT INFORMATIQUE",
     "rue": "126 rue de la division Leclerc",
     "code_postal": "88140",
@@ -14300,28 +12092,6 @@ const lieux = [
       5.894605
     ],
     "adresse_geocodee": "126 Rue Division Leclerc 88140 Contrexéville"
-  },
-  {
-    "nom": "REM SERVICES",
-    "rue": "4 quai Wiltzer",
-    "code_postal": "57000",
-    "commune": "METZ",
-    "pays": "FR",
-    "source": "CIEL, ligne 590",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.123921,
-      6.165706
-    ],
-    "adresse_geocodee": "4 Quai Paul Wiltzer 57000 Metz"
   },
   {
     "nom": "RESEAUX INFO+",
@@ -14460,28 +12230,6 @@ const lieux = [
     "adresse_geocodee": "47-49, Op Zaemer 4959 Bascharage"
   },
   {
-    "nom": "SLBR INFO",
-    "rue": "1 rue de l'équerre",
-    "code_postal": "57100",
-    "commune": "THIONVILLE",
-    "pays": "FR",
-    "source": "CIEL, ligne 597",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.356068,
-      6.139497
-    ],
-    "adresse_geocodee": "1 Rue de l’Equerre 57100 Thionville"
-  },
-  {
     "nom": "SOC. NAT. DES CHEMINS DE FER LUXEEMBOU.",
     "rue": "16 boulevard d'Avranches",
     "code_postal": "",
@@ -14504,28 +12252,6 @@ const lieux = [
       6.13536
     ],
     "adresse_geocodee": "16, Boulevard d'Avranches 1160 Luxembourg"
-  },
-  {
-    "nom": "SOCIETE CUVELLE",
-    "rue": "13 parc d'activité beau vallon",
-    "code_postal": "57970",
-    "commune": "ILLANGE",
-    "pays": "FR",
-    "source": "CIEL, ligne 599",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "adresse",
-    "coordonnees": [
-      49.324208,
-      6.181619
-    ],
-    "adresse_geocodee": "13 Parc d’Activités Beau Vallon 57970 Illange"
   },
   {
     "nom": "STATEC",
@@ -15139,27 +12865,6 @@ const lieux = [
       6.157301
     ],
     "adresse_geocodee": "2 Rue de Longwy 57100 Thionville"
-  },
-  {
-    "nom": "E.N.G.S",
-    "rue": "",
-    "code_postal": "",
-    "commune": "",
-    "pays": "",
-    "source": "Relevé des affectations Pronote",
-    "coordonnees_site": "",
-    "note": "Site d’accueil à confirmer.",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {},
-    "accueils": {
-      "TCIEL-1": 1
-    },
-    "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
   },
   {
     "nom": "SEMIN SAS",

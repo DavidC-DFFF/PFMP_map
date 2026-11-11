@@ -5,6 +5,8 @@ classeur `Suivi_entreprises_PFMP_CIEL_uniquement.xlsx`. Les exports Pronote
 complètent le répertoire avec les établissements qui figurent dans les
 affectations. Les adresses reprises du classeur général privilégient l’onglet
 **Détail accueils**. La colonne `source` du CSV indique la ligne retenue.
+Le répertoire exclut les entreprises cessées, inactives ou radiées et les
+établissements fermés d’après l’audit, y compris dans les ajouts Pronote.
 Les numéros sont ceux des établissements, tirés de l’annuaire Pronote ou des
 pages de contact indiquées dans la colonne `source_telephone`.
 
@@ -31,6 +33,8 @@ Survoler une année dans une fiche, ou la toucher sur mobile, affiche son effect
 
 1. Modifier `adresses.csv` (UTF-8, séparateur point-virgule). Renseigner
    `tuteur` et `telephone` quand le suivi ou l’établissement les indique.
+   Vérifier l’état de l’entreprise et du site d’accueil dans l’audit avant
+   d’ajouter une fiche.
    La colonne facultative `coordonnees_site` accepte un couple latitude,longitude
    fourni par l'exploitant du site.
 2. Renseigner les effectifs par année dans `historique` et les affectations
