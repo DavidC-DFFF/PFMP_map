@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carte des PFMP · 1CIEL</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script defer src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script defer src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/leaflet-maplibre-gl.js"></script>
+  <script defer src="lieux.js"></script>
+  <script defer src="carte.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="logos" role="group" aria-label="Académie et lycée">
+      <img src="assets/academie-nancy-metz.svg" alt="Académie de Nancy-Metz, Éducation nationale" width="213" height="151">
+      <img src="assets/la-briquerie.jpg" alt="Lycée La Briquerie" width="503" height="609">
+    </div>
+    <div class="heading">
+      <p class="programme">Bac pro CIEL · La Briquerie</p>
+      <h1>Carte des PFMP</h1>
+    </div>
+    <div class="header-actions">
+      <select id="theme" aria-label="Thème" disabled>
+        <option value="system">Thème système</option>
+        <option value="light">Mode clair</option>
+        <option value="dark">Mode sombre</option>
+      </select>
+      <button type="button" id="overview" disabled>Voir tous les points</button>
+    </div>
+  </header>
+  <main>
+    <section class="map-panel" aria-label="Carte des établissements">
+      <div id="map" aria-label="Carte interactive des lieux de PFMP"></div>
+      <p class="map-error" id="map-error" role="status" hidden></p>
+    </section>
+    <aside aria-labelledby="list-title">
+      <div class="controls">
+        <h2 id="list-title">Établissements</h2>
+        <label for="query">Rechercher</label>
+        <input id="query" type="search" placeholder="Nom ou commune" autocomplete="off">
+        <label for="classroom">Classe</label>
+        <select id="classroom">
+          <option value="all">Toutes les classes</option>
+          <option value="a">1CIELA</option>
+          <option value="b">1CIELB</option>
+        </select>
+        <p class="legend"><span><i class="dot a"></i>1CIELA</span><span><i class="dot b"></i>1CIELB</span><span><i class="dot both"></i>Les deux</span></p>
+        <p id="count" role="status"></p>
+      </div>
+      <ul id="places"></ul>
+      <noscript><p>Active JavaScript pour afficher la carte et la liste.</p></noscript>
+      <footer class="signature">David Chessa</footer>
+    </aside>
+  </main>
+</body>
+</html>
