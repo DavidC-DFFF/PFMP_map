@@ -1195,25 +1195,28 @@ const lieux = [
   },
   {
     "nom": "ELECTRALUX SARL",
-    "rue": "14 OP Den Drieschen",
-    "code_postal": "L4149",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "14 Op den Drieschen",
+    "code_postal": "4149",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 51",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 51 | https://www.electralux.lu/ | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.513582,5.994904",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 691 645 625",
+    "source_telephone": "https://www.electralux.lu/",
     "historique": {
       "2023-2024": 2,
       "2025-2026": 2
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.513582,
+      5.994904
+    ],
+    "adresse_geocodee": "14 Op den Drieschen, 4149, Esch-sur-Alzette"
   },
   {
     "nom": "ATELIERS DE BASSE HAM",
@@ -1838,16 +1841,16 @@ const lieux = [
   },
   {
     "nom": "ARCELOR MITTAL - ESCH SUR ALZETTE",
-    "rue": "66 Rue de Luxembourg",
-    "code_postal": "L-4221",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "66 rue de Luxembourg",
+    "code_postal": "4221",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 80",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 80 | https://europe.arcelormittal.com/aboutarcelormittaleurope/who/contactslong | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.499024,5.987400",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 5313 3010",
+    "source_telephone": "https://europe.arcelormittal.com/aboutarcelormittaleurope/who/contactslong",
     "historique": {
       "2023-2024": 1,
       "2024-2025": 1,
@@ -1855,9 +1858,12 @@ const lieux = [
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.499024,
+      5.9874
+    ],
+    "adresse_geocodee": "66 rue de Luxembourg, 4221, Esch-sur-Alzette"
   },
   {
     "nom": "MAIRIE D'UCKANGE",
@@ -2440,13 +2446,13 @@ const lieux = [
   },
   {
     "nom": "CORTEX SECURITY SA",
-    "rue": "6A avenue des Hauts Fourneaux",
-    "code_postal": "L-4362",
-    "commune": "EISCH SUR ALZETTE",
+    "rue": "6A avenue des Hauts-Fourneaux",
+    "code_postal": "4362",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 105",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 105 | https://datasecure.ai/contact | https://fedil.lu/en/members/ac954bfb-52f5-f011-8406-000d3a2991e9/ | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.501110,5.949746",
+    "note": "Contact professionnel : contact@datasecure.ai.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -2455,9 +2461,12 @@ const lieux = [
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.50111,
+      5.949746
+    ],
+    "adresse_geocodee": "6A avenue des Hauts-Fourneaux, 4362, Esch-sur-Alzette"
   },
   {
     "nom": "DESPS - DERICHEBOURG FACILITY",
@@ -2758,23 +2767,26 @@ const lieux = [
   {
     "nom": "LUX INFORMATIQUE",
     "rue": "28 rue des Ardennes",
-    "code_postal": "B-6780",
-    "commune": "MESSANCY",
+    "code_postal": "6780",
+    "commune": "Messancy",
     "pays": "BE",
-    "source": "CIEL, ligne 118",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 118 | https://www.luxinformatique.be/fr/p/contact | Géocodage : Photon / OpenStreetMap",
+    "coordonnees_site": "49.625819,5.811671",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+32 63 42 29 11",
+    "source_telephone": "https://www.luxinformatique.be/fr/p/contact",
     "historique": {
       "2025-2026": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.625819,
+      5.811671
+    ],
+    "adresse_geocodee": "28 rue des Ardennes, 6780, Messancy"
   },
   {
     "nom": "Lycée Ermesinde",
@@ -2850,24 +2862,27 @@ const lieux = [
   },
   {
     "nom": "MULTISERVICIOS DEY",
-    "rue": "AvenidaBarcelona 30, local 1B",
-    "code_postal": "19 005",
-    "commune": "GUADALAJORA",
+    "rue": "30 avenida de Barcelona, local 1B",
+    "code_postal": "19005",
+    "commune": "Guadalajara",
     "pays": "ES",
-    "source": "CIEL, ligne 122",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 122 | https://www.waze.com/es/live-map/directions/es/cm/guadalajara/multiservicios-dey-or-distribuidor-digi?to=place.ChIJ__-vhaGrQw0R_w5XarrXBrs | Géocodage : https://www.openstreetmap.org/way/155282628",
+    "coordonnees_site": "40.634094,-3.158152",
+    "note": "Distributeur DIGI. Repère à l’échelle de la rue.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+34 949 87 33 55",
+    "source_telephone": "https://www.waze.com/es/live-map/directions/es/cm/guadalajara/multiservicios-dey-or-distribuidor-digi?to=place.ChIJ__-vhaGrQw0R_w5XarrXBrs",
     "historique": {
       "2025-2026": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      40.634094,
+      -3.158152
+    ],
+    "adresse_geocodee": "30 avenida de Barcelona, local 1B, 19005, Guadalajara"
   },
   {
     "nom": "SOLUTIONS INDUSTRY & BUILDING",
@@ -2943,24 +2958,27 @@ const lieux = [
   },
   {
     "nom": "THELIOS S. P. A.",
-    "rue": "16 Zone Industrielle Villanova",
-    "code_postal": "I-32013",
-    "commune": "LONGARONE",
+    "rue": "16 Zona Industriale Villanova",
+    "code_postal": "32013",
+    "commune": "Longarone",
     "pays": "IT",
-    "source": "CIEL, ligne 127",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 127 | https://www.thelios.com/it-it/contact-us | Géocodage : https://www.openstreetmap.org/node/8295985599",
+    "coordonnees_site": "46.253140,12.302280",
+    "note": "Téléphone publié dans l’annuaire Firmania.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+39 0437 571111",
+    "source_telephone": "https://firmania.it/longarone/th%C3%83%C2%A9lios-spa-4154520",
     "historique": {
       "2025-2026": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "zone",
+    "coordonnees": [
+      46.25314,
+      12.30228
+    ],
+    "adresse_geocodee": "16 Zona Industriale Villanova, 32013, Longarone"
   },
   {
     "nom": "TRIBECA",
@@ -3471,16 +3489,16 @@ const lieux = [
   },
   {
     "nom": "THE LAPTOP SHOP",
-    "rue": "40 Lotts Lane off Bachelors Walk",
+    "rue": "",
     "code_postal": "",
-    "commune": "DUBLIN 1",
+    "commune": "",
     "pays": "IE",
-    "source": "CIEL, ligne 151",
+    "source": "CIEL, ligne 151 | https://www.laptopshop.ie/contact-us",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Le magasin indique une nouvelle adresse au Stephen’s Green Shopping Centre, Dublin 2. Confirmer le lieu de PFMP auprès du magasin.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 475 9560",
+    "source_telephone": "https://www.laptopshop.ie/contact-us",
     "historique": {
       "2024-2025": 2
     },
@@ -3556,16 +3574,16 @@ const lieux = [
   },
   {
     "nom": "ITEC SA",
-    "rue": "126 rue du Luxembourg",
-    "code_postal": "L-4221",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "",
+    "code_postal": "",
+    "commune": "",
     "pays": "LU",
-    "source": "CIEL, ligne 154",
+    "source": "CIEL, ligne 154 | https://itec.lu/contact/",
     "coordonnees_site": "",
-    "note": "",
+    "note": "L’entreprise indique désormais ses bureaux au 2 rue Léon Laval, Leudelange. Le lieu de PFMP est à confirmer.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 26 29 65 02",
+    "source_telephone": "https://itec.lu/contact/",
     "historique": {
       "2023-2024": 2,
       "2024-2025": 1
@@ -4554,27 +4572,6 @@ const lieux = [
     "adresse_geocodee": "426, Z.A.E. WOLSER F 3290 Bettembourg"
   },
   {
-    "nom": "IKKI",
-    "rue": "Les rives de Clausen",
-    "code_postal": "L-2165",
-    "commune": "luxembourg ville",
-    "pays": "LU",
-    "source": "CIEL, ligne 197",
-    "coordonnees_site": "",
-    "note": "",
-    "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
-    "historique": {
-      "2023-2024": 2
-    },
-    "accueils": {},
-    "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
-  },
-  {
     "nom": "MJS DÉPANNAGE - GABET Emile",
     "rue": "18A rue du Maréchal FOCH",
     "code_postal": "57240",
@@ -4779,16 +4776,16 @@ const lieux = [
   },
   {
     "nom": "IN-EDIT SARL",
-    "rue": "22 Avenue François Clément",
-    "code_postal": "L-5612",
-    "commune": "MONDORF LES BAINS",
+    "rue": "",
+    "code_postal": "",
+    "commune": "",
     "pays": "LU",
-    "source": "CIEL, ligne 206",
+    "source": "CIEL, ligne 206 | https://www.in-edit.lu/contact-in-edit-luxembourg/",
     "coordonnees_site": "",
-    "note": "",
+    "note": "L’équipe indique désormais ses bureaux au 1 rue Dr Julien Berger, Altwies. Le lieu de PFMP est à confirmer.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 28 80 482",
+    "source_telephone": "https://www.in-edit.lu/contact-in-edit-luxembourg/",
     "historique": {
       "2021-2022": 2,
       "2023-2024": 1
@@ -5165,24 +5162,27 @@ const lieux = [
   },
   {
     "nom": "LUXINNOVATION GIE",
-    "rue": "5 AVENUE DES HAUTS FOURNEAUX",
+    "rue": "5 avenue des Hauts-Fourneaux",
     "code_postal": "4362",
-    "commune": "ESCH SUR ALZETTE",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 223",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 223 | https://luxinnovation.lu/fr-lu/accessibility | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.501665,5.948772",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 43 62 63 1",
+    "source_telephone": "https://luxinnovation.lu/fr-lu/accessibility",
     "historique": {
       "2023-2024": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.501665,
+      5.948772
+    ],
+    "adresse_geocodee": "5 avenue des Hauts-Fourneaux, 4362, Esch-sur-Alzette"
   },
   {
     "nom": "Lycée Charles de Gaulle",
@@ -5282,24 +5282,27 @@ const lieux = [
   },
   {
     "nom": "NSI LUXEMBOURG",
-    "rue": "25 RUE HENRI KOCH",
-    "code_postal": "L-4354",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "25 rue Henri Koch",
+    "code_postal": "4354",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 228",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 228 | https://fedil.lu/fr/members/33095bb5-ece6-e611-80f5-c4346bac8ce8/?pdf=1 | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.509016,5.964729",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 28 83 76 500",
+    "source_telephone": "https://fedil.lu/fr/members/33095bb5-ece6-e611-80f5-c4346bac8ce8/?pdf=1",
     "historique": {
       "2023-2024": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.509016,
+      5.964729
+    ],
+    "adresse_geocodee": "25 rue Henri Koch, 4354, Esch-sur-Alzette"
   },
   {
     "nom": "SAPAIG",
@@ -5601,24 +5604,27 @@ const lieux = [
   },
   {
     "nom": "HTL ANICHSTRASSE",
-    "rue": "Anichstrasse 26 - 28",
-    "code_postal": "A-6020",
-    "commune": "INNSBRUCK",
+    "rue": "26–28 Anichstraße",
+    "code_postal": "6020",
+    "commune": "Innsbruck",
     "pays": "AT",
-    "source": "CIEL, ligne 244",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 244 | https://htlinn.ac.at/schule/htl-anichstrasse/kontakt | Géocodage : Photon / OpenStreetMap",
+    "coordonnees_site": "47.264844,11.389170",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+43 50 902 808 100",
+    "source_telephone": "https://htlinn.ac.at/schule/htl-anichstrasse/kontakt",
     "historique": {
       "2022-2023": 2
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      47.264844,
+      11.38917
+    ],
+    "adresse_geocodee": "26–28 Anichstraße, 6020, Innsbruck"
   },
   {
     "nom": "MAIRIE DE ROMBAS",
@@ -6365,12 +6371,12 @@ const lieux = [
   },
   {
     "nom": "REPARATURSERVICE REITMEIR",
-    "rue": "Speckbacherstrasse 59",
-    "code_postal": "A-6020",
-    "commune": "INNSBRUCK",
+    "rue": "59 Speckbacherstraße",
+    "code_postal": "6020",
+    "commune": "Innsbruck",
     "pays": "AT",
-    "source": "CIEL, ligne 278",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 278 | https://localitybiz.at/38781101/reparaturservice-reitmeir-innsbruck | Géocodage : Photon / OpenStreetMap",
+    "coordonnees_site": "47.256751,11.390192",
     "note": "",
     "tuteur": "",
     "telephone": "",
@@ -6380,30 +6386,36 @@ const lieux = [
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      47.256751,
+      11.390192
+    ],
+    "adresse_geocodee": "59 Speckbacherstraße, 6020, Innsbruck"
   },
   {
     "nom": "SISTEMI SRL",
-    "rue": "Via Belli, 47",
-    "code_postal": "I-83042",
-    "commune": "ATRIPALDA (AV)",
+    "rue": "47 via Vincenzo Belli",
+    "code_postal": "83042",
+    "commune": "Atripalda",
     "pays": "IT",
-    "source": "CIEL, ligne 279",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 279 | https://euroformazionesrl.it/wp-content/uploads/2022/09/Aziende-convenzionate.pdf | Géocodage : https://www.openstreetmap.org/way/157928524",
+    "coordonnees_site": "40.919871,14.835512",
+    "note": "Téléphone publié dans l’annuaire Tuttiaffari. Repère à l’échelle de la rue.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+39 0825 610330",
+    "source_telephone": "https://www.tuttiaffari.com/sistemi-s-r-l_23F-0825-610330",
     "historique": {
       "2022-2023": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      40.919871,
+      14.835512
+    ],
+    "adresse_geocodee": "47 via Vincenzo Belli, 83042, Atripalda"
   },
   {
     "nom": "TECHEM CALORLUX",
@@ -7124,23 +7136,26 @@ const lieux = [
   {
     "nom": "LHOAS EXELLENT",
     "rue": "12 rue de la Fraternité",
-    "code_postal": "B-6792",
-    "commune": "HALANZY",
+    "code_postal": "6792",
+    "commune": "Halanzy",
     "pays": "BE",
-    "source": "CIEL, ligne 317",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 317 | https://www.lhoas-david.be/fr/contact-166 | Géocodage : Photon / OpenStreetMap",
+    "coordonnees_site": "49.558881,5.744146",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+32 63 67 81 69",
+    "source_telephone": "https://www.lhoas-david.be/fr/contact-166",
     "historique": {
       "2021-2022": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.558881,
+      5.744146
+    ],
+    "adresse_geocodee": "12 rue de la Fraternité, 6792, Halanzy"
   },
   {
     "nom": "MAIRIE DE MONT SAINT MARTIN",
@@ -7727,24 +7742,27 @@ const lieux = [
   },
   {
     "nom": "BOULANGERIE PATISSERIE TROMBINI",
-    "rue": "85 Rue de Belvaux",
-    "code_postal": "L-4025",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "85 rue de Belvaux",
+    "code_postal": "4025",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 351",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 351 | https://www.waze.com/fr/live-map/directions/lu/esch-sur-alzette/esch-sur-alzette/boulangerie-trombini?to=place.ChIJUUIJkiM1lUcRli-GZ6Fs7DQ | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.503090,5.970449",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 55 00 16",
+    "source_telephone": "https://www.waze.com/fr/live-map/directions/lu/esch-sur-alzette/esch-sur-alzette/boulangerie-trombini?to=place.ChIJUUIJkiM1lUcRli-GZ6Fs7DQ",
     "historique": {
       "2020-2021": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.50309,
+      5.970449
+    ],
+    "adresse_geocodee": "85 rue de Belvaux, 4025, Esch-sur-Alzette"
   },
   {
     "nom": "CHLOE SEILER",
@@ -7820,24 +7838,27 @@ const lieux = [
   },
   {
     "nom": "CONEXUS GmbH",
-    "rue": "Wallerfanger Str.68",
-    "code_postal": "D-66780",
-    "commune": "REHLINGEN",
+    "rue": "68 Wallerfanger Straße",
+    "code_postal": "66780",
+    "commune": "Rehlingen-Siersburg",
     "pays": "DE",
-    "source": "CIEL, ligne 355",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 355 | https://kbbz-dillingen.de/betriebe/ | Géocodage : https://www.openstreetmap.org/way/376908702",
+    "coordonnees_site": "49.366169,6.685611",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+49 6835 923910",
+    "source_telephone": "https://kbbz-dillingen.de/betriebe/",
     "historique": {
       "2020-2021": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.366169,
+      6.685611
+    ],
+    "adresse_geocodee": "68 Wallerfanger Straße, 66780, Rehlingen-Siersburg"
   },
   {
     "nom": "CREDIT MUTUEL",
@@ -7985,24 +8006,27 @@ const lieux = [
   },
   {
     "nom": "EURONICS XXL FUNK Gmbh",
-    "rue": "Bezirksstrasse 112",
-    "code_postal": "D-66663",
-    "commune": "MERZIG",
+    "rue": "112 Bezirkstraße",
+    "code_postal": "66663",
+    "commune": "Merzig",
     "pays": "DE",
-    "source": "CIEL, ligne 363",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 363 | https://www.euronics.de/xxl-merzig-funk/shop | Géocodage : https://www.openstreetmap.org/way/346340533",
+    "coordonnees_site": "49.476322,6.605257",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+49 6861 93400",
+    "source_telephone": "https://www.euronics.de/xxl-merzig-funk/shop",
     "historique": {
       "2020-2021": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.476322,
+      6.605257
+    ],
+    "adresse_geocodee": "112 Bezirkstraße, 66663, Merzig"
   },
   {
     "nom": "GROUPE LES PRECIEUSES",
@@ -8222,24 +8246,27 @@ const lieux = [
   },
   {
     "nom": "STEINMETZ Ets",
-    "rue": "8 Grand Rue",
+    "rue": "8 Grand Rue, Obernaumen",
     "code_postal": "57480",
-    "commune": "OBERNAUMEN",
+    "commune": "Kirschnaumen",
     "pays": "FR",
-    "source": "CIEL, ligne 375",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 375 | https://www.shop57.org/content/4--adresse-horaires | Géocodage : IGN",
+    "coordonnees_site": "49.407842,6.455178",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+33 3 82 83 71 15",
+    "source_telephone": "https://www.shop57.org/content/4--adresse-horaires",
     "historique": {
       "2020-2021": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.407842,
+      6.455178
+    ],
+    "adresse_geocodee": "8 Grand Rue, Obernaumen, 57480, Kirschnaumen"
   },
   {
     "nom": "TECH ASSIST",
@@ -8562,23 +8589,26 @@ const lieux = [
   {
     "nom": "FRESH GRAND CANAL",
     "rue": "Unit 4, Block 1, Grand Canal Square",
-    "code_postal": "",
-    "commune": "DUBLIN 2",
+    "code_postal": "D02 E718",
+    "commune": "Dublin",
     "pays": "IE",
-    "source": "CIEL, ligne 392",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 392 | https://freshthegoodfoodmarket.ie/locations/ | Géocodage : Photon / OpenStreetMap",
+    "coordonnees_site": "53.343279,-6.238851",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 532 0277",
+    "source_telephone": "https://freshthegoodfoodmarket.ie/locations/",
     "historique": {
       "2018-2019": 2
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      53.343279,
+      -6.238851
+    ],
+    "adresse_geocodee": "Unit 4, Block 1, Grand Canal Square, D02 E718, Dublin"
   },
   {
     "nom": "LUXEMBOURG CENTRE FOR SYSTEMS BIOME.",
@@ -8731,17 +8761,17 @@ const lieux = [
     "adresse_geocodee": "Thionville"
   },
   {
-    "nom": "SATURN",
-    "rue": "7 avenue du Rock'n Roll",
-    "code_postal": "L-4361",
-    "commune": "ESCH SUR ALZETTE",
+    "nom": "MediaMarkt Belval (ex-Saturn)",
+    "rue": "7 avenue du Rock’n’Roll",
+    "code_postal": "4361",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 399",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 399 | https://www.belval-shopping.lu/fr/enseignes/mediamarkt | Géocodage : Géoportail luxembourgeois",
+    "coordonnees_site": "49.500413,5.946724",
+    "note": "Le magasin de Belval porte désormais l’enseigne MediaMarkt.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 266 566 566",
+    "source_telephone": "https://www.belval-shopping.lu/fr/enseignes/mediamarkt",
     "historique": {
       "2016-2017": 2,
       "2017-2018": 2,
@@ -8749,9 +8779,12 @@ const lieux = [
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      49.500413,
+      5.946724
+    ],
+    "adresse_geocodee": "7 avenue du Rock’n’Roll, 4361, Esch-sur-Alzette"
   },
   {
     "nom": "TECH-IT PSF",
@@ -8808,14 +8841,14 @@ const lieux = [
     "nom": "AAA WASHING MACHINE DOCTORS",
     "rue": "Cork Street",
     "code_postal": "",
-    "commune": "DUBLIN 8",
+    "commune": "Dublin 8",
     "pays": "IE",
-    "source": "CIEL, ligne 402",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 402 | https://aaawashingmachinedoctor.com/contact-us/ | Géocodage : https://www.openstreetmap.org/way/317219090",
+    "coordonnees_site": "53.337228,-6.286356",
+    "note": "Numéro de rue non publié. Repère à l’échelle de la rue.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 473 7405",
+    "source_telephone": "https://aaawashingmachinedoctor.com/contact-us/",
     "historique": {
       "2016-2017": 1,
       "2017-2018": 1,
@@ -8823,9 +8856,12 @@ const lieux = [
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      53.337228,
+      -6.286356
+    ],
+    "adresse_geocodee": "Cork Street, Dublin 8"
   },
   {
     "nom": "DIMENSION DATA LUXEMBOURG PSF",
@@ -9121,12 +9157,12 @@ const lieux = [
   {
     "nom": "KPC COMPUTER SA",
     "rue": "41 rue du Brill",
-    "code_postal": "L-4041",
-    "commune": "ESCH SUR ALZETTE",
+    "code_postal": "4041",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 423",
+    "source": "CIEL, ligne 423 | https://statistiques.public.lu/dam-assets/catalogue-publications/repertoire/2018/repertoire-entreprises-18.pdf",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Adresse historique du classeur. L’activité actuelle à cette adresse reste à confirmer.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -9168,25 +9204,28 @@ const lieux = [
   },
   {
     "nom": "CENTRE HOSPITALIER EMILE MAYRISCH",
-    "rue": "BP 436",
-    "code_postal": "L-4005",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "rue Émile Mayrisch",
+    "code_postal": "4240",
+    "commune": "Esch-sur-Alzette",
     "pays": "LU",
-    "source": "CIEL, ligne 426",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 426 | https://portail.chem.lu/f/contact | Géocodage : https://www.openstreetmap.org/way/72872456",
+    "coordonnees_site": "49.501700,5.981580",
+    "note": "Site hospitalier d’Esch-sur-Alzette.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 57 11 1",
+    "source_telephone": "https://portail.chem.lu/f/contact",
     "historique": {
       "2016-2017": 2,
       "2017-2018": 2
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "zone",
+    "coordonnees": [
+      49.5017,
+      5.98158
+    ],
+    "adresse_geocodee": "rue Émile Mayrisch, 4240, Esch-sur-Alzette"
   },
   {
     "nom": "SER TEC",
@@ -9776,13 +9815,13 @@ const lieux = [
   },
   {
     "nom": "TELINDUS",
-    "rue": "2 rue des mines",
-    "code_postal": "L-4244",
-    "commune": "ESCH SUR ALZETTE",
+    "rue": "",
+    "code_postal": "",
+    "commune": "",
     "pays": "LU",
-    "source": "CIEL, ligne 461",
+    "source": "CIEL, ligne 461 | https://www.proximus.lu/fr/contact/",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Telindus est aujourd’hui une marque de Proximus Luxembourg. Le lieu de PFMP actuel reste à confirmer.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -9993,24 +10032,27 @@ const lieux = [
   },
   {
     "nom": "DISTELEC SOC. DISTRIBUIDORA de ELECTRO.",
-    "rue": "Rua Dr Albarran Grilo N° 3A",
+    "rue": "3A rua Doutor Albarran Grilo",
     "code_postal": "2560-323",
-    "commune": "TORRES VEDRAS",
+    "commune": "Torres Vedras",
     "pays": "PT",
-    "source": "CIEL, ligne 472",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 472 | https://www.tien21.pt/Aspx/Lojas/DetalheLoja.aspx?idLoja=5150240000 | Géocodage : https://www.openstreetmap.org/way/36876805",
+    "coordonnees_site": "39.086415,-9.260293",
+    "note": "Magasin Tien21 Distelec. Repère à l’échelle de la rue.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+351 261 312 803",
+    "source_telephone": "https://www.tien21.pt/Aspx/Lojas/DetalheLoja.aspx?idLoja=5150240000",
     "historique": {
       "2016-2017": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      39.086415,
+      -9.260293
+    ],
+    "adresse_geocodee": "3A rua Doutor Albarran Grilo, 2560-323, Torres Vedras"
   },
   {
     "nom": "E.M.R. SARL CLINIQUE DU MINI-MÉNAGER",
@@ -10182,24 +10224,27 @@ const lieux = [
   },
   {
     "nom": "LYNCH IT",
-    "rue": "2 Merchant's Arch",
-    "code_postal": "",
-    "commune": "DUBLIN 2",
+    "rue": "2 Merchants Arch",
+    "code_postal": "D02 TD39",
+    "commune": "Dublin",
     "pays": "IE",
-    "source": "CIEL, ligne 480",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 480 | https://www.repairmystuff.ie/business/lynch-computer-repair/ | Géocodage : https://www.go-to-ireland.com/what-to-see/merchants-arch/",
+    "coordonnees_site": "53.345984,-6.262910",
+    "note": "Repère à l’échelle de la rue.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 679 7920",
+    "source_telephone": "https://www.yourlocal.ie/search/d2/shoe-repair",
     "historique": {
       "2016-2017": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      53.345984,
+      -6.26291
+    ],
+    "adresse_geocodee": "2 Merchants Arch, D02 TD39, Dublin"
   },
   {
     "nom": "NF TECH",
@@ -10470,23 +10515,26 @@ const lieux = [
   {
     "nom": "ALLIED APPLIANCE REPAIR",
     "rue": "24 Crumlin Road",
-    "code_postal": "",
-    "commune": "DUBLIN 1",
+    "code_postal": "D12 HH68",
+    "commune": "Dublin",
     "pays": "IE",
-    "source": "CIEL, ligne 500",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 500 | https://www.alliedappliancesrepair.com/contact-zW9O61 | Géocodage : https://www.openstreetmap.org/way/929163427",
+    "coordonnees_site": "53.331706,-6.294842",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 454 6291",
+    "source_telephone": "https://www.alliedappliancesrepair.com/contact-zW9O61",
     "historique": {
       "2015-2016": 1
     },
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      53.331706,
+      -6.294842
+    ],
+    "adresse_geocodee": "24 Crumlin Road, D12 HH68, Dublin"
   },
   {
     "nom": "ATMOSPHERE INFORMATIQUE",
@@ -10514,16 +10562,16 @@ const lieux = [
   },
   {
     "nom": "BACK FROM THE FUTURE",
-    "rue": "77 Aungier St",
+    "rue": "",
     "code_postal": "",
-    "commune": "DUBLIN 2",
+    "commune": "",
     "pays": "IE",
-    "source": "CIEL, ligne 503",
+    "source": "CIEL, ligne 503 | https://backfromthefuture.ie/pages/contact-us",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Le magasin historique d’Aungier Street ne figure plus parmi les adresses publiées. Plusieurs ateliers sont ouverts. Confirmer le site avec l’entreprise.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 475 7177",
+    "source_telephone": "https://backfromthefuture.ie/pages/contact-us",
     "historique": {
       "2015-2016": 1
     },
@@ -11277,13 +11325,13 @@ const lieux = [
   },
   {
     "nom": "COMPUTER REPAIRS.IE",
-    "rue": "Old Bawn Road",
+    "rue": "Old Bawn Shopping Centre",
     "code_postal": "",
-    "commune": "DUBLIN 1",
+    "commune": "Tallaght, Dublin 24",
     "pays": "IE",
-    "source": "CIEL, ligne 542",
+    "source": "CIEL, ligne 542 | https://www.irishtrade.ie/c-7838-Computer-Repairie",
     "coordonnees_site": "",
-    "note": "",
+    "note": "L’annuaire situe l’ancienne enseigne à Old Bawn. Le site et l’exploitant actuels restent à confirmer.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -11317,23 +11365,26 @@ const lieux = [
     "adresse_geocodee": "Nancy"
   },
   {
-    "nom": "CORA ST-MARIE-AUX-CHÊNES",
-    "rue": "Route Nationale 43",
+    "nom": "Carrefour Sainte-Marie-aux-Chênes (ex-Cora)",
+    "rue": "643 rue de la Moselle",
     "code_postal": "57255",
-    "commune": "STE MARIE AUX CHENE.",
+    "commune": "Sainte-Marie-aux-Chênes",
     "pays": "FR",
-    "source": "CIEL, ligne 545",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 545 | https://traiteur.carrefour.fr/nos-points-de-vente/departement-57/1668-carrefour-sainte-marie-aux-chenes.html | Géocodage : IGN",
+    "coordonnees_site": "49.196932,5.992309",
+    "note": "L’ancien hypermarché Cora est passé sous enseigne Carrefour.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+33 3 87 61 99 99",
+    "source_telephone": "https://traiteur.carrefour.fr/nos-points-de-vente/departement-57/1668-carrefour-sainte-marie-aux-chenes.html",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "zone",
+    "coordonnees": [
+      49.196932,
+      5.992309
+    ],
+    "adresse_geocodee": "643 rue de la Moselle, 57255, Sainte-Marie-aux-Chênes"
   },
   {
     "nom": "DELOITTE GENERAL SERVICES",
@@ -11425,22 +11476,25 @@ const lieux = [
   },
   {
     "nom": "DVT - DATA PROCESSING - TIROL GmbH",
-    "rue": "Adamgasse 22",
-    "code_postal": "A-6020",
-    "commune": "INNSBRUCK",
+    "rue": "22 Adamgasse",
+    "code_postal": "6020",
+    "commune": "Innsbruck",
     "pays": "AT",
-    "source": "CIEL, ligne 551",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 551 | https://www.dvt.at/kontakt/ | Géocodage : https://www.openstreetmap.org/way/56517320",
+    "coordonnees_site": "47.261830,11.398009",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+43 512 508 3319",
+    "source_telephone": "https://www.dvt.at/kontakt/",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      47.26183,
+      11.398009
+    ],
+    "adresse_geocodee": "22 Adamgasse, 6020, Innsbruck"
   },
   {
     "nom": "EDF UNITEP",
@@ -11577,50 +11631,56 @@ const lieux = [
   {
     "nom": "FRANCE 3 LORRAINE",
     "rue": "14 route de Mirecourt",
-    "code_postal": "54501",
-    "commune": "VANDOEUVRE-LES-NAN.",
+    "code_postal": "54500",
+    "commune": "Vandœuvre-lès-Nancy",
     "pays": "FR",
-    "source": "CIEL, ligne 559",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 559 | https://www.pagesjaunes.fr/pros/01729753 | https://www.francetvpro.fr/contenu-de-presse/74623391 | Géocodage : IGN",
+    "coordonnees_site": "48.667043,6.191133",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+33 3 83 50 40 30",
+    "source_telephone": "https://www.pagesjaunes.fr/pros/01729753",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      48.667043,
+      6.191133
+    ],
+    "adresse_geocodee": "14 route de Mirecourt, 54500, Vandœuvre-lès-Nancy"
   },
   {
     "nom": "FRESH SMITHFIELD",
-    "rue": "SMITHFIELD VILLAGE",
-    "code_postal": "",
-    "commune": "DUBLIN 1",
+    "rue": "Unit 5, Block F, Smithfield Square",
+    "code_postal": "D07 EV62",
+    "commune": "Dublin",
     "pays": "IE",
-    "source": "CIEL, ligne 560",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 560 | https://freshthegoodfoodmarket.ie/locations/ | Géocodage : https://ie.near-place.com/fresh-smithfield-village-smithfield-arran-quay-dublin",
+    "coordonnees_site": "53.349274,-6.278488",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 516 6530",
+    "source_telephone": "https://freshthegoodfoodmarket.ie/locations/",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "zone",
+    "coordonnees": [
+      53.349274,
+      -6.278488
+    ],
+    "adresse_geocodee": "Unit 5, Block F, Smithfield Square, D07 EV62, Dublin"
   },
   {
     "nom": "FRESH SUPPORT OFFICE",
-    "rue": "27 HAYMARKET",
+    "rue": "",
     "code_postal": "",
-    "commune": "DUBLIN 7",
+    "commune": "",
     "pays": "IE",
-    "source": "CIEL, ligne 561",
+    "source": "CIEL, ligne 561 | https://freshthegoodfoodmarket.ie/contact/",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Fresh indique ses bureaux à Smithfield Square, Dublin 7. Le lieu de PFMP rattaché à la fiche historique de Haymarket reste à confirmer.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -11815,22 +11875,25 @@ const lieux = [
   },
   {
     "nom": "KENILWORTH ELECTRICAL",
-    "rue": "253 Harold's Cross",
-    "code_postal": "",
-    "commune": "DUBLIN 1",
+    "rue": "253 Harold’s Cross Road",
+    "code_postal": "D6W DH22",
+    "commune": "Dublin",
     "pays": "IE",
-    "source": "CIEL, ligne 574",
-    "coordonnees_site": "",
+    "source": "CIEL, ligne 574 | https://www.kenilworthelectrical.ie/about-us/ | Géocodage : https://www.openstreetmap.org/node/2986860519",
+    "coordonnees_site": "53.318232,-6.279209",
     "note": "",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 496 8036",
+    "source_telephone": "https://www.kenilworthelectrical.ie/about-us/",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      53.318232,
+      -6.279209
+    ],
+    "adresse_geocodee": "253 Harold’s Cross Road, D6W DH22, Dublin"
   },
   {
     "nom": "LIBERTY LIEGE DUDELANGE",
@@ -12053,23 +12116,26 @@ const lieux = [
     "adresse_geocodee": "16 Place de l'Eglise 54113 Bulligny"
   },
   {
-    "nom": "PHONES FIX",
-    "rue": "511 Northcircular Road",
+    "nom": "511 Tech Solutions (Phones Fix)",
+    "rue": "511 North Circular Road",
     "code_postal": "",
-    "commune": "DUBLIN 1",
+    "commune": "Dublin 1",
     "pays": "IE",
-    "source": "CIEL, ligne 587",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 587 | https://www.repairmystuff.ie/business/511-tech-solutions/ | Géocodage : https://www.openstreetmap.org/node/3465847948",
+    "coordonnees_site": "53.359540,-6.259790",
+    "note": "Atelier référencé sous le nom 511 Tech Solutions à l’adresse du classeur.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 819 7834",
+    "source_telephone": "https://mapcarta.com/N3465847948",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      53.35954,
+      -6.25979
+    ],
+    "adresse_geocodee": "511 North Circular Road, Dublin 1"
   },
   {
     "nom": "PIERROT INFORMATIQUE",
@@ -12277,13 +12343,13 @@ const lieux = [
   },
   {
     "nom": "TECH CARE DUNDRUM",
-    "rue": "Unit G3, The Village Centre Main",
+    "rue": "The Village Centre, Main Street",
     "code_postal": "",
-    "commune": "DUBLIN 1",
+    "commune": "Dundrum, Dublin 14",
     "pays": "IE",
-    "source": "CIEL, ligne 601",
+    "source": "CIEL, ligne 601 | https://www.repairmystuff.ie/business/tech-care-dundrum/",
     "coordonnees_site": "",
-    "note": "",
+    "note": "L’annuaire de réparation référence cette adresse. L’activité actuelle du site reste à confirmer.",
     "tuteur": "",
     "telephone": "",
     "source_telephone": "",
@@ -12317,23 +12383,26 @@ const lieux = [
     "adresse_geocodee": "476 Boulevard de Saint-Raphaël 83420 La Croix-Valmer"
   },
   {
-    "nom": "THE LAPTOP LAP",
-    "rue": "68 main street, Bray",
-    "code_postal": "",
-    "commune": "DUBLIN 1",
+    "nom": "LaptopLab Bray (Back from the Future)",
+    "rue": "68 Main Street",
+    "code_postal": "A98 H421",
+    "commune": "Bray",
     "pays": "IE",
-    "source": "CIEL, ligne 603",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "CIEL, ligne 603 | https://backfromthefuture.ie/pages/contact-us | Géocodage : https://ie.near-place.com/laptoplab-bray-68-main-street-bray/pl",
+    "coordonnees_site": "53.201608,-6.110798",
+    "note": "L’atelier de Bray est aujourd’hui présenté sous le nom Back from the Future.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+353 1 475 7177",
+    "source_telephone": "https://backfromthefuture.ie/pages/contact-us",
     "historique": {},
     "accueils": {},
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "adresse",
+    "coordonnees": [
+      53.201608,
+      -6.110798
+    ],
+    "adresse_geocodee": "68 Main Street, A98 H421, Bray"
   },
   {
     "nom": "THE PHONE SERVICE",
@@ -12453,9 +12522,9 @@ const lieux = [
     "code_postal": "",
     "commune": "Hayange",
     "pays": "FR",
-    "source": "Stagiaires, ligne 3338",
+    "source": "Stagiaires, ligne 3338 | https://annuaire-entreprises.data.gouv.fr/entreprise/533722195 | https://annuaire-entreprises.data.gouv.fr/etablissement/53372219500039",
     "coordonnees_site": "",
-    "note": "Seule la commune figure dans le classeur.",
+    "note": "Le SIRET du suivi est actif au 26 rue de la Gendarmerie, à Hayange. Le tuteur peut confirmer si la PFMP s’y déroule.",
     "tuteur": "Damien Klamber",
     "telephone": "",
     "source_telephone": "",
@@ -12494,13 +12563,13 @@ const lieux = [
   },
   {
     "nom": "BD - PERFORMANCE",
-    "rue": "",
-    "code_postal": "",
-    "commune": "",
+    "rue": "29 rue Georges Clemenceau",
+    "code_postal": "57130",
+    "commune": "Ars-sur-Moselle",
     "pays": "FR",
-    "source": "Lieu de stage absent du classeur",
-    "coordonnees_site": "",
-    "note": "",
+    "source": "Lieu de stage absent du classeur | https://www.mygarages.fr/57/ars-sur-moselle/bd-performance-300408 | https://www.societe.com/societe/bd-performance-934172743.html | Géocodage : IGN",
+    "coordonnees_site": "49.081054,6.084644",
+    "note": "Repère à l’échelle de la rue.",
     "tuteur": "Djalal Boudjella",
     "telephone": "",
     "source_telephone": "",
@@ -12509,9 +12578,12 @@ const lieux = [
       "1CIEL-1": 1
     },
     "accueil_a_verifier": [],
-    "precision": "absente",
-    "coordonnees": null,
-    "adresse_geocodee": ""
+    "precision": "rue",
+    "coordonnees": [
+      49.081054,
+      6.084644
+    ],
+    "adresse_geocodee": "29 rue Georges Clemenceau, 57130, Ars-sur-Moselle"
   },
   {
     "nom": "DARTALIS SA",
@@ -12592,9 +12664,9 @@ const lieux = [
     "code_postal": "",
     "commune": "",
     "pays": "FR",
-    "source": "Détail accueils, ligne 1929 et Stagiaires, ligne 715",
+    "source": "Détail accueils, ligne 1929 et Stagiaires, ligne 715 | https://annuaire-entreprises.data.gouv.fr/entreprise/922077086",
     "coordonnees_site": "",
-    "note": "Le classeur renseigne uniquement l’adresse du siège.",
+    "note": "Le registre confirme le siège à Drancy. L’adresse où se déroule la PFMP reste à confirmer auprès du tuteur.",
     "tuteur": "Mohamed Maiga",
     "telephone": "",
     "source_telephone": "",
@@ -12613,12 +12685,12 @@ const lieux = [
     "code_postal": "",
     "commune": "",
     "pays": "LU",
-    "source": "Lieu de stage absent du classeur",
+    "source": "Lieu de stage absent du classeur | https://groupe.foyer.lu/fr/jobs/stages-et-jobs-etudiants",
     "coordonnees_site": "",
-    "note": "",
+    "note": "Le groupe propose des stages au 12 rue Léon Laval, à Leudelange. Le lieu de cette PFMP reste à confirmer.",
     "tuteur": "Maryam Takadoum",
     "telephone": "+352 437 437",
-    "source_telephone": "https://www.foyer.lu/fr/",
+    "source_telephone": "https://groupe.foyer.lu/fr/jobs/stages-et-jobs-etudiants",
     "historique": {},
     "accueils": {
       "1CIEL-1": 1
@@ -12827,12 +12899,12 @@ const lieux = [
     "code_postal": "",
     "commune": "",
     "pays": "",
-    "source": "Relevé des affectations Pronote",
+    "source": "Relevé des affectations Pronote | https://www.editus.lu/fr/know-and-decide-sarl-luxembourg-1739015",
     "coordonnees_site": "",
-    "note": "Site d’accueil à confirmer.",
+    "note": "Contact clientèle publié par l’entreprise. Le site de cette PFMP reste à confirmer parmi les adresses du suivi.",
     "tuteur": "",
-    "telephone": "",
-    "source_telephone": "",
+    "telephone": "+352 621 834 928",
+    "source_telephone": "https://www.editus.lu/fr/know-and-decide-sarl-luxembourg-1739015",
     "historique": {},
     "accueils": {
       "TCIEL-1": 1
