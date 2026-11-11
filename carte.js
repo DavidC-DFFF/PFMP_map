@@ -1,8 +1,8 @@
 'use strict';
 
 const elements = Object.fromEntries(
-  ['map', 'map-error', 'query', 'count', 'places', 'theme', 'place-dialog', 'place-details',
-    'period', 'period-dates', 'occupancy-legend', 'layout', 'sidebar', 'sidebar-toggle']
+  ['map', 'map-error', 'query', 'count', 'places', 'place-dialog', 'place-details',
+    'period', 'period-dates', 'occupancy-legend']
     .map(id => [id, document.getElementById(id)])
 );
 const regionalCenter = [49.41, 6.14];
@@ -38,30 +38,11 @@ const mapStyles = {
   light: 'https://tiles.openfreemap.org/styles/positron',
   dark: 'https://tiles.openfreemap.org/styles/fiord'
 };
-const themeKey = 'pfmp-map-theme';
-
-function applyTheme(theme) {
-  document.documentElement.dataset.theme = theme;
-  elements.theme.setAttribute('aria-checked', String(theme === 'dark'));
-  basemap?.setStyle(mapStyles[theme]);
-}
-
-let initialTheme = 'light';
-try {
-  if (localStorage.getItem(themeKey) === 'dark') initialTheme = 'dark';
-} catch {
-  // Le navigateur peut désactiver le stockage pour les fichiers locaux.
-}
-applyTheme(initialTheme);
-elements.theme.disabled = false;
-elements.theme.addEventListener('click', () => {
-  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  applyTheme(theme);
-  try {
-    localStorage.setItem(themeKey, theme);
-  } catch {
-    // Le thème reste actif pour la page ouverte.
-  }
+document.addEventListener('pfmp:themechange', () => {
+  basemap?.setStyle(mapStyles[document.documentElement.dataset.theme]);
+});
+document.addEventListener('pfmp:sidebarresize', () => {
+  map?.invalidateSize({ animate: false });
 });
 
 function node(tag, value, className) {
@@ -220,7 +201,7 @@ function render(focusSearch = false) {
   }
   if (layer?.addLayers) {
     layer.addLayers(displayedMarkers);
-  } else {
+  } else if (layer) {
     displayedMarkers.forEach(marker => layer.addLayer(marker));
   }
   if (map && focusSearch) {
@@ -252,7 +233,7 @@ function addBasemap() {
   }
   try {
     basemap = L.maplibreGL({
-      style: mapStyles[document.documentElement.dataset.theme],
+      style: mapStyles[document.documentElement.dataset.theme || 'light'],
       interactive: false
     }).addTo(map).getMaplibreMap();
     basemap.on('error', () => showMapNotice(unavailable));
@@ -298,18 +279,6 @@ if (typeof L === 'undefined') {
     markers.set(place, marker);
   }
 }
-
-const sidebarToggle = elements['sidebar-toggle'];
-sidebarToggle.hidden = false;
-sidebarToggle.addEventListener('click', () => {
-  const collapsed = elements.layout.classList.toggle('sidebar-hidden');
-  elements.sidebar.hidden = collapsed;
-  const label = collapsed ? 'Afficher le panneau de recherche' : 'Masquer le panneau de recherche';
-  sidebarToggle.setAttribute('aria-expanded', String(!collapsed));
-  sidebarToggle.setAttribute('aria-label', label);
-  sidebarToggle.title = label;
-  map?.invalidateSize({ animate: false });
-});
 
 elements.query.addEventListener('input', () => render(true));
 elements.period.addEventListener('change', updatePeriod);
